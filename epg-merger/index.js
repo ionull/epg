@@ -57,13 +57,13 @@ const displayNameRenames = {
   '龍華戲劇HD': '龍華戲劇台',
   '龍華影劇HD': '龍華日韓台',
   '韓國娛樂台 KMTV': '韓國娛樂台',
-  'TVBS精采台', 'TVBS-精采台',
-  'TVBS歡樂台', 'TVBS-歡樂台',
-  'TVBS綜藝台', 'TVBS-綜藝台',
-  'TVBS台劇台', 'TVBS-台劇台',
-  'HITS頻道', 'HITS-頻道',
-  '台灣戲劇HD', '台灣戲劇台',
-  '公視戲劇', '公視戲劇台'
+  'TVBS精采台': 'TVBS-精采台',
+  'TVBS歡樂台': 'TVBS-歡樂台',
+  'TVBS綜藝台': 'TVBS-綜藝台',
+  'TVBS台劇台': 'TVBS-台劇台',
+  'HITS頻道': 'HITS-頻道',
+  '台灣戲劇HD': '台灣戲劇台',
+  '公視戲劇': '公視戲劇台'
 };
 
 async function fetchAndParse(url) {
