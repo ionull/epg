@@ -57,7 +57,7 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370226", // 公视戏剧
   "https://epg.pw/api/epg.xml?channel_id=370240", // 采昌影剧
   "https://epg.pw/api/epg.xml?channel_id=370227", // 民视影剧
-  "https://epg.iill.top/epg", // yang
+  "https://epg.iill.top/epg?t=.gz", // yang
   "https://epg.112114.xyz/pp.xml.gz", // cn
 ];
 
@@ -82,15 +82,9 @@ const displayNameRenames = {
 
 async function fetchAndParse(url) {
   const res = await fetch(url);
+  if (!res.ok) throw new Error(`Failed to fetch ${url}`);
 
-  if (!res.ok) {
-    throw new Error(`Failed to fetch ${url}: ${res.statusText}`);
-  }
-
-  const isGz =
-    url.endsWith('.gz') ||
-    res.headers.get('content-encoding') === 'gzip' ||
-    res.headers.get('content-type') === 'application/gzip';
+  const isGz = url.endsWith('.gz');
 
   const buffer = await res.buffer();
   const xml = isGz
@@ -102,12 +96,13 @@ async function fetchAndParse(url) {
 
 async function gunzipBuffer(buffer) {
   return new Promise((resolve, reject) => {
-    zlib.gunzip(buffer, (err, result) => {
+    zlib.gunzip(buffer, (err, output) => {
       if (err) reject(err);
-      else resolve(result.toString('utf8'));
+      else resolve(output.toString('utf8'));
     });
   });
 }
+
 
 (async () => {
   try {
