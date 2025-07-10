@@ -25,8 +25,21 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=410285", // now baogu
   "https://epg.pw/api/epg.xml?channel_id=410286", // now baogu xingying
   "https://epg.pw/api/epg.xml?channel_id=369806", // e-Le
-  "https://epg.pw/api/epg.xml?channel_id=410290"  // ebc asia
+  "https://epg.pw/api/epg.xml?channel_id=410290", // ebc asia
+  "https://epg.pw/api/epg.xml?channel_id=334779", // 龙华电影
+  "https://epg.pw/api/epg.xml?channel_id=334835", // 龙华经典
+  "https://epg.pw/api/epg.xml?channel_id=334794", // 龙华偶像
+  "https://epg.pw/api/epg.xml?channel_id=334887", // 龙华戏剧
+  "https://epg.pw/api/epg.xml?channel_id=334789", // 龙华日韩
 ];
+
+const displayNameRenames = {
+  '龍華電影HD': '龍華電影台',
+  '龍華經典HD': '龍華經典台',
+  '龍華偶像HD': '龍華偶像台',
+  '龍華戲劇HD': '龍華戲劇台',
+  '龍華影劇HD': '龍華日韓台',
+};
 
 async function fetchAndParse(url) {
   const res = await fetch(url);
@@ -48,7 +61,13 @@ async function fetchAndParse(url) {
     };
 
     for (const p of parsed) {
-      merged.tv.channel.push(...(p.tv.channel || []));
+      for (const ch of p.tv.channel || []) {
+        const name = ch['display-name']?.[0]?.trim();
+        if (name && displayNameRenames[name]) {
+          ch['display-name'][0] = displayNameRenames[name];
+        }
+        merged.tv.channel.push(ch);
+      }
       merged.tv.programme.push(...(p.tv.programme || []));
     }
 
