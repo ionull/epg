@@ -134,8 +134,8 @@ async function gunzipBuffer(buffer) {
     const gzipOutput = `${baseOutput}.gz`;
 
     // Save plain XML
-    fs.writeFileSync(baseOutput, xml, 'utf8');
-    console.log(`Saved plain XML file: ${baseOutput}`);
+    // fs.writeFileSync(baseOutput, xml, 'utf8');
+    // console.log(`Saved plain XML file: ${baseOutput}`);
 
     // Save .gz compressed version
     zlib.gzip(xml, (err, buffer) => {
