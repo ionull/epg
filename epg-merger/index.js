@@ -8,7 +8,10 @@ const { Readable } = require('stream');
 
 const urls = [
   "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/singapore.xml", // singapore
-  "https://epg.112114.xyz/pp.xml.gz", // cn
+  "https://epg.pw/api/epg.xml?channel_id=410274", // viutv
+  "https://epg.pw/api/epg.xml?channel_id=410273", // viutv6
+  "https://epg.pw/api/epg.xml?channel_id=368550", // rthk31
+  "https://epg.pw/api/epg.xml?channel_id=368551", // rthk32
   "https://epg.pw/api/epg.xml?channel_id=410372", // 中天亚洲
   "https://epg.pw/api/epg.xml?channel_id=370246", // cinema world
   "https://epg.pw/api/epg.xml?channel_id=370144", // 三立综合
@@ -53,6 +56,7 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370226", // 公视戏剧
   "https://epg.pw/api/epg.xml?channel_id=370240", // 采昌影剧
   "https://epg.pw/api/epg.xml?channel_id=370227", // 民视影剧
+  "https://epg.112114.xyz/pp.xml.gz", // cn
 ];
 
 const displayNameRenames = {
@@ -68,7 +72,8 @@ const displayNameRenames = {
   'TVBS台劇台': 'TVBS-台劇台',
   'HITS頻道': 'HITS-頻道',
   '台灣戲劇HD': '台灣戲劇台',
-  '公視戲劇': '公視戲劇台'
+  '公視戲劇': '公視戲劇台',
+  'ViuTVsix', 'ViuTV-Six'
 };
 
 async function fetchAndParse(url) {
