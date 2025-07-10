@@ -104,6 +104,74 @@
     <display-name lang="Taiwan">龍華日韓台</display-name>
     <icon src=""/>
   </channel>
+  <channel id="370247">
+    <display-name lang="Taiwan">My Cinema Europe HD 我的歐洲電影</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612111704782015_92.png"/>
+  </channel>
+  <channel id="412028">
+    <display-name lang="Taiwan">韓國娛樂台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/02/11/20250211045906387520_35.png"/>
+  </channel>
+  <channel id="370146">
+    <display-name lang="Taiwan">八大綜藝台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612110237815701_88.png"/>
+  </channel>
+  <channel id="370231">
+    <display-name lang="Taiwan">八大精彩台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612111517057071_67.png"/>
+  </channel>
+  <channel id="370183">
+    <display-name lang="Taiwan">TVBS</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612110950648129_24.png"/>
+  </channel>
+  <channel id="370191">
+    <display-name lang="Taiwan">TVBS-歡樂台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612111044399081_91.png"/>
+  </channel>
+  <channel id="370257">
+    <display-name lang="Taiwan">TVBS-綜藝台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612113506201938_55.png"/>
+  </channel>
+  <channel id="370148">
+    <display-name lang="Taiwan">TVBS-精采台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612110251247350_42.png"/>
+  </channel>
+  <channel id="370258">
+    <display-name lang="Taiwan">TVBS-台劇台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612113512871069_19.png"/>
+  </channel>
+  <channel id="370192">
+    <display-name lang="Taiwan">ROCK Entertainment</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612111051197229_25.png"/>
+  </channel>
+  <channel id="370229">
+    <display-name lang="Taiwan">HITS-頻道</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612111503599013_16.png"/>
+  </channel>
+  <channel id="370263">
+    <display-name lang="Taiwan">戲劇免費看 1台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612113547378441_95.png"/>
+  </channel>
+  <channel id="334808">
+    <display-name lang="Taiwan">台灣戲劇台</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="370259">
+    <display-name lang="Taiwan">經典電影台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612113519904800_19.png"/>
+  </channel>
+  <channel id="370226">
+    <display-name lang="Taiwan">公視戲劇台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612111443528309_38.png"/>
+  </channel>
+  <channel id="370240">
+    <display-name lang="Taiwan">采昌影劇台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612111617747154_24.png"/>
+  </channel>
+  <channel id="370227">
+    <display-name lang="Taiwan">民視影劇台</display-name>
+    <icon src="https://epg.pw/media/images/epg/2024/06/12/20240612111450185133_40.png"/>
+  </channel>
   <programme channel="410372" start="20250710000000 +0000" stop="20250710010000 +0000">
     <title lang="zh">中天新聞Live</title>
     <desc/>
@@ -5296,6 +5364,4236 @@
   </programme>
   <programme channel="334789" start="20250711230000 +0000" stop="20250712000000 +0000">
     <title lang="zh">銀行家(1-2)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250710000000 +0000" stop="20250710003000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710003000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">Inside Story</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710010000 +0000" stop="20250710013000 +0000">
+    <title lang="zh">Al Jazeera World</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710013000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">Talk to Al Jazeera</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710030000 +0000" stop="20250710033000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710033000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">Earthrise</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710040000 +0000" stop="20250710043000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710043000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">The Stream</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710050000 +0000" stop="20250710053000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710053000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">Witness</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710060000 +0000" stop="20250710063000 +0000">
+    <title lang="zh">Romania- People Power</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710063000 +0000" stop="20250710065500 +0000">
+    <title lang="zh">Inside Story</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710065500 +0000" stop="20250710070000 +0000">
+    <title lang="zh">Frames</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710070000 +0000" stop="20250710073000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710073000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">Inside Story</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710080000 +0000" stop="20250710083000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710083000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">The Stream</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710090000 +0000" stop="20250710093000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710093000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">People and Power</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710100000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710110000 +0000" stop="20250710113000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710113000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">Inside Story</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">Witness</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710130000 +0000" stop="20250710133000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710133000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">Counting the Cost</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710140000 +0000" stop="20250710143000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710143000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">The Stream</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">newsgrid</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710160000 +0000" stop="20250710163000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710163000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">This Is Europe</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710170000 +0000" stop="20250710173000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710173000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">Inside Story</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710190000 +0000" stop="20250710193000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710193000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">The Stream</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">7Up South Africa</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710220000 +0000" stop="20250710223000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710223000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">101 East</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370247" start="20250711000000 +0000" stop="20250711003000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711003000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">Inside Story</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">Witness</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711030000 +0000" stop="20250711033000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711033000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">People and Power</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711040000 +0000" stop="20250711043000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711043000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">The Stream</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711050000 +0000" stop="20250711053000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711053000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">This Is Europe</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711060000 +0000" stop="20250711063000 +0000">
+    <title lang="zh">Al Jazeera World</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711063000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">The Cure Revisited</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711070000 +0000" stop="20250711073000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711073000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">Inside Story</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711080000 +0000" stop="20250711083000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711083000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">The Stream</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711090000 +0000" stop="20250711093000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711093000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">101 East</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711110000 +0000" stop="20250711113000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711113000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">Inside Story</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">7Up South Africa</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711140000 +0000" stop="20250711143000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711143000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">The Stream</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">newsgrid</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711160000 +0000" stop="20250711163000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711163000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">Earthrise</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711170000 +0000" stop="20250711173000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711173000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">Inside Story</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711190000 +0000" stop="20250711193000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711193000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">TechKnow</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711200000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">Head to Head</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711220000 +0000" stop="20250711223000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711223000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">Counting the Cost</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">Newshour</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370247" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">News Live</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="412028" start="20250710000000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">超人回來了  (73)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710030000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710070000 +0000" stop="20250710073000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710073000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">廚神明星秀  (7)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">廚神明星秀  (8)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710100000 +0000" stop="20250710113000 +0000">
+    <title lang="zh">廚師之旅  (5)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710113000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">忙内的逆襲  (7)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710130000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710220000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">韓國娛樂週刊  (617)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710230000 +0000" stop="20250710233000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250710233000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="412028" start="20250711000000 +0000" stop="20250711013000 +0000">
+    <title lang="zh">廚師之旅  (5)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711013000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">愛情化學 第三季  (9)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711060000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711070000 +0000" stop="20250711073000 +0000">
+    <title lang="zh">最愛OST特輯 第二季  (5)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711073000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">最愛OST特輯 第二季  (6)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711080000 +0000" stop="20250711083000 +0000">
+    <title lang="zh">忙内的逆襲  (7)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711083000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">KM Special 手足特輯  (2)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711090000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">超人回來了  (74)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711110000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">超人回來了  (13)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711160000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711170000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711190000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711200000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711210000 +0000" stop="20250711213000 +0000">
+    <title lang="zh">最愛OST特輯 第二季  (5)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711213000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">最愛OST特輯 第二季  (6)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711220000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">Genie TOP 100 第549集  (549_1)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="412028" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">韓綜精選(護)</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="370146" start="20250710000000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">WTO姐妹會-20250527【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710010000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">同學搞什麼鬼-237【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">故鄉好滋味-9【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710030000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">健康NO1-322【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">WTO姐妹會-20250522【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">同學搞什麼鬼-235【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">故鄉好滋味-7【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710070000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">健康NO1-320【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">WTO姐妹會-20250525【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">同學搞什麼鬼-236【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710100000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">故鄉好滋味-8【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">健康NO1-321【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">WTO姐妹會-20250527【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710130000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">同學搞什麼鬼-237【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">故鄉好滋味-9【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">健康NO1-322【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">WTO姐妹會-20250528【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">同學搞什麼鬼-238【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">故鄉好滋味-10【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">健康NO1-323【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">WTO姐妹會-20250602【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">同學搞什麼鬼-239【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710220000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">故鄉好滋味-11【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">健康NO1-324【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370146" start="20250711000000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">WTO姐妹會-20250603【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">同學搞什麼鬼-240【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">故鄉好滋味-11【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">健康NO1-325【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">WTO姐妹會-20250528【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">同學搞什麼鬼-238【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711060000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">故鄉好滋味-10【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711070000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">健康NO1-323【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711080000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">WTO姐妹會-20250602【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711090000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">同學搞什麼鬼-239【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">故鄉好滋味-11【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">健康NO1-324【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">WTO姐妹會-20250603【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">同學搞什麼鬼-240【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">故鄉好滋味-11【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">健康NO1-325【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711160000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">WTO姐妹會-20250604【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711170000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">同學搞什麼鬼-241【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">故鄉好滋味-13【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711190000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">健康NO1-326【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711200000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">WTO姐妹會-20250605【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">同學搞什麼鬼-242【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711220000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">故鄉好滋味-14【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">健康NO1-327【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370146" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">WTO姐妹會-20250609【普】</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="370231" start="20250710000000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">白色戀曲第6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710010000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">至尊玻璃鞋第6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">我是男子漢第6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710030000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">撞球小子6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">又見橘花香第5集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">火線任務第5集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">白色戀曲第5集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710070000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">至尊玻璃鞋第5集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">我是男子漢第5集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">撞球小子5集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710100000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">又見橘花香第6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">火線任務第6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">白色戀曲第6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710130000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">至尊玻璃鞋第6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">我是男子漢第6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">撞球小子6集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">又見橘花香第7集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">火線任務第7集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">白色戀曲第7集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">至尊玻璃鞋第7集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">我是男子漢第7集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">撞球小子7集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710220000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">又見橘花香第8集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">火線任務第8集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370231" start="20250711000000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">白色戀曲第8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">至尊玻璃鞋第8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">我是男子漢第8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">撞球小子8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">又見橘花香第7集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">火線任務第7集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711060000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">白色戀曲第7集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711070000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">至尊玻璃鞋第7集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711080000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">我是男子漢第7集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711090000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">撞球小子7集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">又見橘花香第8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">火線任務第8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">白色戀曲第8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">至尊玻璃鞋第8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">我是男子漢第8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">撞球小子8集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711160000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">又見橘花香第9集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711170000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">火線任務第9集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">白色戀曲第9集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711190000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">至尊玻璃鞋第9集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711200000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">我是男子漢第9集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">撞球小子9集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711220000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">又見橘花香第10集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">火線任務第10集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370231" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">白色戀曲第10集【普】</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="370183" start="20250710000000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">健康2.0</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710010000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">地球黃金線</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">金臨天下</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710030000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">FOCUS國際話題</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">FOCUS世界新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">FOCUS世界新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">新聞大白話</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710070000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">新聞大白話</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">新聞大白話</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">新聞大白話</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710100000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">國民大會</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">FOCUS全球新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710130000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">地球黃金線</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">金臨天下</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">國民大會</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">地球黃金線</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">FOCUS全球新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">FOCUS國際話題</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">FOCUS世界新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710220000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">FOCUS世界新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">FOCUS全球新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370183" start="20250711000000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">健康2.0</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">地球黃金線</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">金臨天下</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">FOCUS國際話題</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">FOCUS世界新聞</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">FOCUS世界新聞</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711060000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">新聞大白話</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711070000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">新聞大白話</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711080000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">新聞大白話</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711090000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">新聞大白話</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">國民大會</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">FOCUS全球新聞</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">地球黃金線</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">金臨天下</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711160000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">國民大會</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711170000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">地球黃金線</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">FOCUS全球新聞</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711190000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711200000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">FOCUS國際話題</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">一步一腳印發現新台灣</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711220000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">FOCUS世界新聞</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">FOCUS全球新聞</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370183" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">健康2.0</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="370191" start="20250710000000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">家族榮耀</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710010000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃台塑石油APP</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710030000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">食尚玩家2天1夜go台塑石油APP</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">家族榮耀</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710070000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">11點熱吵店 享食尚滴雞精</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">健康2.0 享食尚滴雞精</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710100000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">食尚玩家2天1夜go台塑石油APP</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710130000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃台塑石油APP</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">11點熱吵店 享食尚滴雞精</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃台塑石油APP</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">11點熱吵店 享食尚滴雞精</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃台塑石油APP</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710220000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">拜託ATM</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370191" start="20250711000000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">家族榮耀</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">食尚玩家熱血48小時台塑石油APP</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃台塑石油APP</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">家族榮耀</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711060000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711070000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">11點熱吵店 享食尚滴雞精</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711080000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">健康2.0 享食尚滴雞精</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711090000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃台塑石油APP</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">食尚玩家熱血48小時台塑石油APP</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711160000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711170000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">食尚玩家熱血48小時台塑石油APP</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711190000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711200000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">食尚玩家熱血48小時台塑石油APP</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711220000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">食尚玩家熱血48小時台塑石油APP</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃台塑石油APP</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370191" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">TVBS看板人物</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="370257" start="20250710000000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">TVBS看板人物《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710010000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">一步一腳印 發現新台灣《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">女人我最大《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710030000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">地球黃金線 10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">食尚玩家《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">健康20《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">11點熱吵店《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710070000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">TVBS看板人物《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">一步一腳印 發現新台灣《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">女人我最大《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710100000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">地球黃金線 10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">食尚玩家《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">健康20《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710130000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">11點熱吵店《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">TVBS看板人物《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">一步一腳印 發現新台灣《精選》10</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">11點熱吵店《精選》11</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">TVBS看板人物《精選》12</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">一步一腳印 發現新台灣《精選》12</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">女人我最大《精選》12</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">地球黃金線 12</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">食尚玩家《精選》12</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710220000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">健康20《精選》12</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">11點熱吵店《精選》11</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370257" start="20250711000000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">TVBS看板人物《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">一步一腳印 發現新台灣《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">女人我最大《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">地球黃金線 12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">食尚玩家《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">健康20《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711060000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">11點熱吵店《精選》11</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711070000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">TVBS看板人物《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711080000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">一步一腳印 發現新台灣《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711090000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">女人我最大《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">地球黃金線 12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">食尚玩家《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">健康20《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">11點熱吵店《精選》11</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">TVBS看板人物《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">一步一腳印 發現新台灣《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711160000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">11點熱吵店《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711170000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">TVBS看板人物《精選》13</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">一步一腳印 發現新台灣《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711190000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">女人我最大《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711200000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">地球黃金線 12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">食尚玩家《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711220000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">健康20《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">11點熱吵店《精選》12</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370257" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">TVBS看板人物《精選》13</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="370148" start="20250710000000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">早安台灣</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710010000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">健康2.0 享食尚滴雞精</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710030000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">食尚玩家2天1夜go</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">午間12.13整點新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">午間12.13整點新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710070000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">食尚玩家2天1夜go</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710100000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">國民大會</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">FOCUS全球新聞</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710130000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710220000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">早安台灣</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">早安台灣</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370148" start="20250711000000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">早安台灣</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">健康2.0</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">午間12.13整點新聞</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">午間12.13整點新聞</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711060000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711070000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711080000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">女人我最大 享食尚</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711090000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">食尚玩家天菜就醬吃</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">國民大會</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">FOCUS全球新聞</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">女人我最大</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">食尚玩家熱血48小時</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711160000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711170000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">少康戰情室</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">女人我最大</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711190000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">無所畏懼</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711200000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">11點熱吵店</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">食尚玩家熱血48小時</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711220000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">早安台灣</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">早安台灣</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370148" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">早安台灣</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="370258" start="20250710000000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">遺憾拼圖06</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710010000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">在一起，就好06</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">酸甜之味06</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710030000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">天堂的微笑06</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">遺憾拼圖04</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">在一起，就好04</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">酸甜之味04</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710070000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">天堂的微笑04</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">遺憾拼圖05</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">在一起，就好05</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710100000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">酸甜之味05</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">天堂的微笑05</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">遺憾拼圖06</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710130000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">在一起，就好06</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">酸甜之味06</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">天堂的微笑06</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">遺憾拼圖07</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">在一起，就好07</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">酸甜之味07</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">天堂的微笑07</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">遺憾拼圖08</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">在一起，就好08</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710220000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">酸甜之味08</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">天堂的微笑08</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370258" start="20250711000000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">遺憾拼圖09</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">在一起，就好09</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">酸甜之味09</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">天堂的微笑09</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">遺憾拼圖07</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">在一起，就好07</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711060000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">酸甜之味07</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711070000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">天堂的微笑07</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711080000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">遺憾拼圖08</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711090000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">在一起，就好08</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">酸甜之味08</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">天堂的微笑08</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">遺憾拼圖09</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">在一起，就好09</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">酸甜之味09</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">天堂的微笑09</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711160000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">遺憾拼圖10</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711170000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">在一起，就好10</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">酸甜之味10</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711190000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">天堂的微笑10</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711200000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">遺憾拼圖11</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">在一起，就好11</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711220000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">酸甜之味11</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">天堂的微笑11</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370258" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">遺憾拼圖12</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="370192" start="20250710000000 +0000" stop="20250710004500 +0000">
+    <title lang="zh">撲克臉 第2季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710004500 +0000" stop="20250710013500 +0000">
+    <title lang="zh">撲克臉 第2季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710013500 +0000" stop="20250710022500 +0000">
+    <title lang="zh">撲克臉 第2季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710022500 +0000" stop="20250710041000 +0000">
+    <title lang="zh">豪門保姆日記 (普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710041000 +0000" stop="20250710044000 +0000">
+    <title lang="zh">眼鏡蛇道館(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710044000 +0000" stop="20250710051000 +0000">
+    <title lang="zh">眼鏡蛇道館(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710051000 +0000" stop="20250710054500 +0000">
+    <title lang="zh">眼鏡蛇道館(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710054500 +0000" stop="20250710063000 +0000">
+    <title lang="zh">吉米A咖秀 第12季 (無字幕)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710063000 +0000" stop="20250710071500 +0000">
+    <title lang="zh">賽斯梅爾深夜秀 第12季 (無字幕)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710071500 +0000" stop="20250710080000 +0000">
+    <title lang="zh">芝加哥醫情 第10季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710080000 +0000" stop="20250710084500 +0000">
+    <title lang="zh">芝加哥醫情 第10季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710084500 +0000" stop="20250710093000 +0000">
+    <title lang="zh">芝加哥醫情 第10季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710093000 +0000" stop="20250710111500 +0000">
+    <title lang="zh">給茱麗葉的信(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710111500 +0000" stop="20250710120500 +0000">
+    <title lang="zh">主廚顛峰戰 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710120500 +0000" stop="20250710125500 +0000">
+    <title lang="zh">主廚顛峰戰 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710125500 +0000" stop="20250710134500 +0000">
+    <title lang="zh">主廚顛峰戰 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710134500 +0000" stop="20250710143500 +0000">
+    <title lang="zh">主廚顛峰戰 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710143500 +0000" stop="20250710164000 +0000">
+    <title lang="zh">愛是唯一(輔12)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710164000 +0000" stop="20250710172500 +0000">
+    <title lang="zh">吉米A咖秀 第12季 (無字幕)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710172500 +0000" stop="20250710181000 +0000">
+    <title lang="zh">賽斯梅爾深夜秀 第12季 (無字幕)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710181000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">主廚顛峰戰 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710190000 +0000" stop="20250710195000 +0000">
+    <title lang="zh">主廚顛峰戰 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710195000 +0000" stop="20250710210500 +0000">
+    <title lang="zh">蒙面歌王英國版  第5季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710210500 +0000" stop="20250710213000 +0000">
+    <title lang="zh">眼鏡蛇道館(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710213000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">眼鏡蛇道館(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710220000 +0000" stop="20250710224500 +0000">
+    <title lang="zh">賽斯梅爾深夜秀 第12季 (無字幕)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710224500 +0000" stop="20250710233000 +0000">
+    <title lang="zh">吉米A咖秀 第12季 (無字幕)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250710233000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">主廚顛峰戰 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370192" start="20250711002000 +0000" stop="20250711011000 +0000">
+    <title lang="zh">主廚顛峰戰 第4季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711011000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">主廚顛峰戰 第4季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711020000 +0000" stop="20250711034500 +0000">
+    <title lang="zh">給茱麗葉的信(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711034500 +0000" stop="20250711041500 +0000">
+    <title lang="zh">眼鏡蛇道館(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711041500 +0000" stop="20250711044500 +0000">
+    <title lang="zh">眼鏡蛇道館(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711044500 +0000" stop="20250711052000 +0000">
+    <title lang="zh">眼鏡蛇道館 第2季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711052000 +0000" stop="20250711060500 +0000">
+    <title lang="zh">吉米A咖秀 第12季 (無字幕)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711060500 +0000" stop="20250711065000 +0000">
+    <title lang="zh">賽斯梅爾深夜秀 第12季 (無字幕)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711065000 +0000" stop="20250711074000 +0000">
+    <title lang="zh">撲克臉 第2季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711074000 +0000" stop="20250711081000 +0000">
+    <title lang="zh">眼鏡蛇道館(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711081000 +0000" stop="20250711084000 +0000">
+    <title lang="zh">眼鏡蛇道館(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711084000 +0000" stop="20250711091500 +0000">
+    <title lang="zh">眼鏡蛇道館 第2季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711091500 +0000" stop="20250711110000 +0000">
+    <title lang="zh">豪門保姆日記 (普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711110000 +0000" stop="20250711123500 +0000">
+    <title lang="zh">歌喉讚3(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711123500 +0000" stop="20250711142500 +0000">
+    <title lang="zh">娶我吧(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711142500 +0000" stop="20250711160500 +0000">
+    <title lang="zh">精選完美男(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711160500 +0000" stop="20250711173500 +0000">
+    <title lang="zh">近墨者黑(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711173500 +0000" stop="20250711191000 +0000">
+    <title lang="zh">她不是我的女兒(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711191000 +0000" stop="20250711204500 +0000">
+    <title lang="zh">致命謊言(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711204500 +0000" stop="20250711222000 +0000">
+    <title lang="zh">歌喉讚3(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370192" start="20250711222000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">娶我吧(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250710000000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">推理女神探 第8季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710010000 +0000" stop="20250710013000 +0000">
+    <title lang="zh">歡樂一家親 第1季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710013000 +0000" stop="20250710023000 +0000">
+    <title lang="zh">霹靂嬌娃 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710023000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">太空仙女戀 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710030000 +0000" stop="20250710033000 +0000">
+    <title lang="zh">神仙家庭 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710033000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">神仙家庭 第5季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710040000 +0000" stop="20250710043000 +0000">
+    <title lang="zh">歡樂一家親 第6季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710043000 +0000" stop="20250710053000 +0000">
+    <title lang="zh">大偵探波洛 第3季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710053000 +0000" stop="20250710063000 +0000">
+    <title lang="zh">瑪波小姐探案 第1季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710063000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">歡樂一家親 第1季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710070000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">霹靂嬌娃 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710080000 +0000" stop="20250710083000 +0000">
+    <title lang="zh">太空仙女戀 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710083000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">神仙家庭 第4季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">推理女神探 第8季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710100000 +0000" stop="20250710103000 +0000">
+    <title lang="zh">神仙家庭 第5季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710103000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">歡樂一家親 第6季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">無敵金剛 第1季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710120000 +0000" stop="20250710123000 +0000">
+    <title lang="zh">神仙家庭 第5季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710123000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">太空仙女戀 第5季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710130000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">推理女神探 第8季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">大偵探波洛 第3季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">瑪波小姐探案 第1季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710160000 +0000" stop="20250710163000 +0000">
+    <title lang="zh">神仙家庭 第5季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710163000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">太空仙女戀 第5季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">推理女神探 第8季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">大偵探波洛 第3季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">瑪波小姐探案 第1季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710200000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">無敵金剛 第1季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">推理女神探 第8季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710220000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">大偵探波洛 第3季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">無敵金剛 第1季(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370229" start="20250711000000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">推理女神探 第8季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711010000 +0000" stop="20250711013000 +0000">
+    <title lang="zh">歡樂一家親 第1季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711013000 +0000" stop="20250711023000 +0000">
+    <title lang="zh">霹靂嬌娃 第4季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711023000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">太空仙女戀 第4季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711030000 +0000" stop="20250711033000 +0000">
+    <title lang="zh">神仙家庭 第4季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711033000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">神仙家庭 第5季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711040000 +0000" stop="20250711043000 +0000">
+    <title lang="zh">太空仙女戀 第5季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711043000 +0000" stop="20250711053000 +0000">
+    <title lang="zh">大偵探波洛 第3季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711053000 +0000" stop="20250711063000 +0000">
+    <title lang="zh">瑪波小姐探案 第1季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711063000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">歡樂一家親 第1季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711070000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">我的類型(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711090000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">推理女神探 第8季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711100000 +0000" stop="20250711103000 +0000">
+    <title lang="zh">神仙家庭 第5季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711103000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">太空仙女戀 第5季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">無敵金剛 第2季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711120000 +0000" stop="20250711123000 +0000">
+    <title lang="zh">神仙家庭 第5季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711123000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">太空仙女戀 第5季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711130000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">推理女神探 第8季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">大偵探波洛 第3季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">瑪波小姐探案 第1季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711160000 +0000" stop="20250711163000 +0000">
+    <title lang="zh">歡樂一家親 第1季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711163000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">歡樂一家親 第1季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711170000 +0000" stop="20250711173000 +0000">
+    <title lang="zh">歡樂一家親 第1季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711173000 +0000" stop="20250711183000 +0000">
+    <title lang="zh">無敵金剛 第1季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711183000 +0000" stop="20250711193000 +0000">
+    <title lang="zh">無敵金剛 第1季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711193000 +0000" stop="20250711203000 +0000">
+    <title lang="zh">大偵探波洛 第3季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711203000 +0000" stop="20250711213000 +0000">
+    <title lang="zh">大偵探波洛 第3季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711213000 +0000" stop="20250711223000 +0000">
+    <title lang="zh">大偵探波洛 第3季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711223000 +0000" stop="20250711233000 +0000">
+    <title lang="zh">霹靂嬌娃 第4季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370229" start="20250711233000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">霹靂嬌娃 第4季(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250710000000 +0000" stop="20250710004900 +0000">
+    <title lang="zh">奈何Boss又如何12</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710004900 +0000" stop="20250710013500 +0000">
+    <title lang="zh">珍珠耳環23</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710013500 +0000" stop="20250710015900 +0000">
+    <title lang="zh">凜子小姐想試愛01</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710015900 +0000" stop="20250710024800 +0000">
+    <title lang="zh">奈何Boss又如何13</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710024800 +0000" stop="20250710033400 +0000">
+    <title lang="zh">珍珠耳環24</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710033400 +0000" stop="20250710040000 +0000">
+    <title lang="zh">凜子小姐想試愛02</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710040000 +0000" stop="20250710044800 +0000">
+    <title lang="zh">奈何Boss又如何11</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710044800 +0000" stop="20250710053300 +0000">
+    <title lang="zh">珍珠耳環22</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710053300 +0000" stop="20250710060000 +0000">
+    <title lang="zh">凜子小姐想試愛08</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710060000 +0000" stop="20250710064900 +0000">
+    <title lang="zh">奈何Boss又如何12</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710064900 +0000" stop="20250710073500 +0000">
+    <title lang="zh">珍珠耳環23</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710073500 +0000" stop="20250710075900 +0000">
+    <title lang="zh">凜子小姐想試愛01</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710075900 +0000" stop="20250710084800 +0000">
+    <title lang="zh">奈何Boss又如何13</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710084800 +0000" stop="20250710093400 +0000">
+    <title lang="zh">珍珠耳環24</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710093400 +0000" stop="20250710100000 +0000">
+    <title lang="zh">凜子小姐想試愛02</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710100000 +0000" stop="20250710104800 +0000">
+    <title lang="zh">奈何Boss又如何11</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710104800 +0000" stop="20250710113300 +0000">
+    <title lang="zh">珍珠耳環22</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710113300 +0000" stop="20250710120000 +0000">
+    <title lang="zh">凜子小姐想試愛08</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710120000 +0000" stop="20250710124900 +0000">
+    <title lang="zh">奈何Boss又如何12</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710124900 +0000" stop="20250710133500 +0000">
+    <title lang="zh">珍珠耳環23</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710133500 +0000" stop="20250710135900 +0000">
+    <title lang="zh">凜子小姐想試愛01</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710135900 +0000" stop="20250710144800 +0000">
+    <title lang="zh">奈何Boss又如何13</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710144800 +0000" stop="20250710153400 +0000">
+    <title lang="zh">珍珠耳環24</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710153400 +0000" stop="20250710160000 +0000">
+    <title lang="zh">凜子小姐想試愛02</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710160000 +0000" stop="20250710164900 +0000">
+    <title lang="zh">奈何Boss又如何14</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710164900 +0000" stop="20250710173400 +0000">
+    <title lang="zh">珍珠耳環25</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710173400 +0000" stop="20250710175900 +0000">
+    <title lang="zh">凜子小姐想試愛03</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710175900 +0000" stop="20250710184800 +0000">
+    <title lang="zh">奈何Boss又如何15</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710184800 +0000" stop="20250710193400 +0000">
+    <title lang="zh">珍珠耳環26</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710193400 +0000" stop="20250710195800 +0000">
+    <title lang="zh">凜子小姐想試愛04</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710195800 +0000" stop="20250710204900 +0000">
+    <title lang="zh">奈何Boss又如何16</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710204900 +0000" stop="20250710213500 +0000">
+    <title lang="zh">珍珠耳環27</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710213500 +0000" stop="20250710220000 +0000">
+    <title lang="zh">凜子小姐想試愛05</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710220000 +0000" stop="20250710224900 +0000">
+    <title lang="zh">奈何Boss又如何14</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710224900 +0000" stop="20250710233400 +0000">
+    <title lang="zh">珍珠耳環25</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710233400 +0000" stop="20250710235900 +0000">
+    <title lang="zh">凜子小姐想試愛03</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250710235900 +0000" stop="20250711000000 +0000">
+    <title lang="zh">奈何Boss又如何15</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370263" start="20250711004800 +0000" stop="20250711013400 +0000">
+    <title lang="zh">珍珠耳環26</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711013400 +0000" stop="20250711015800 +0000">
+    <title lang="zh">凜子小姐想試愛04</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711015800 +0000" stop="20250711024900 +0000">
+    <title lang="zh">奈何Boss又如何16</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711024900 +0000" stop="20250711033500 +0000">
+    <title lang="zh">珍珠耳環27</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711033500 +0000" stop="20250711040000 +0000">
+    <title lang="zh">凜子小姐想試愛05</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711040000 +0000" stop="20250711044900 +0000">
+    <title lang="zh">奈何Boss又如何14</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711044900 +0000" stop="20250711053400 +0000">
+    <title lang="zh">珍珠耳環25</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711053400 +0000" stop="20250711055900 +0000">
+    <title lang="zh">凜子小姐想試愛03</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711055900 +0000" stop="20250711064800 +0000">
+    <title lang="zh">奈何Boss又如何15</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711064800 +0000" stop="20250711073400 +0000">
+    <title lang="zh">珍珠耳環26</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711073400 +0000" stop="20250711075800 +0000">
+    <title lang="zh">凜子小姐想試愛04</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711075800 +0000" stop="20250711084900 +0000">
+    <title lang="zh">奈何Boss又如何16</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711084900 +0000" stop="20250711093500 +0000">
+    <title lang="zh">珍珠耳環27</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711093500 +0000" stop="20250711100000 +0000">
+    <title lang="zh">凜子小姐想試愛05</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711100000 +0000" stop="20250711104900 +0000">
+    <title lang="zh">奈何Boss又如何14</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711104900 +0000" stop="20250711113400 +0000">
+    <title lang="zh">珍珠耳環25</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711113400 +0000" stop="20250711115900 +0000">
+    <title lang="zh">凜子小姐想試愛03</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711115900 +0000" stop="20250711124800 +0000">
+    <title lang="zh">奈何Boss又如何15</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711124800 +0000" stop="20250711133400 +0000">
+    <title lang="zh">珍珠耳環26</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711133400 +0000" stop="20250711135800 +0000">
+    <title lang="zh">凜子小姐想試愛04</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711135800 +0000" stop="20250711144900 +0000">
+    <title lang="zh">奈何Boss又如何16</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711144900 +0000" stop="20250711153500 +0000">
+    <title lang="zh">珍珠耳環27</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711153500 +0000" stop="20250711160000 +0000">
+    <title lang="zh">凜子小姐想試愛05</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711160000 +0000" stop="20250711164800 +0000">
+    <title lang="zh">奈何Boss又如何17</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711164800 +0000" stop="20250711173300 +0000">
+    <title lang="zh">珍珠耳環28</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711173300 +0000" stop="20250711180000 +0000">
+    <title lang="zh">凜子小姐想試愛06</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711180000 +0000" stop="20250711184900 +0000">
+    <title lang="zh">奈何Boss又如何18</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711184900 +0000" stop="20250711193500 +0000">
+    <title lang="zh">珍珠耳環29</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711193500 +0000" stop="20250711195900 +0000">
+    <title lang="zh">凜子小姐想試愛07</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711195900 +0000" stop="20250711205000 +0000">
+    <title lang="zh">奈何Boss又如何19</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711205000 +0000" stop="20250711213600 +0000">
+    <title lang="zh">珍珠耳環30</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711213600 +0000" stop="20250711220000 +0000">
+    <title lang="zh">凜子小姐想試愛08</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711220000 +0000" stop="20250711224800 +0000">
+    <title lang="zh">奈何Boss又如何17</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711224800 +0000" stop="20250711233300 +0000">
+    <title lang="zh">珍珠耳環28</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250711233300 +0000" stop="20250712000000 +0000">
+    <title lang="zh">凜子小姐想試愛06</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370263" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">奈何Boss又如何18</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="334808" start="20250710000000 +0000" stop="20250710010000 +0000">
+    <title lang="zh">台灣龍捲風(241)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710010000 +0000" stop="20250710023000 +0000">
+    <title lang="zh">藍色水玲瓏(79)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710023000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">藍色水玲瓏(80)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">關鍵時刻(124)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">台灣啟示錄(26)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">台灣啟示錄(15)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710070000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">包青天(61)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">包青天(62)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710090000 +0000" stop="20250710093000 +0000">
+    <title lang="zh">親戚不計較(1767)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710093000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">親戚不計較(1768)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710100000 +0000" stop="20250710103000 +0000">
+    <title lang="zh">親戚不計較(1769)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710103000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">親戚不計較(1770)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">台灣龍捲風(241)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">台灣龍捲風(242)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710130000 +0000" stop="20250710143000 +0000">
+    <title lang="zh">藍色水玲瓏(103)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710143000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">藍色水玲瓏(104)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710160000 +0000" stop="20250710163000 +0000">
+    <title lang="zh">親戚不計較(2077)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710163000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">親戚不計較(2078)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710170000 +0000" stop="20250710173000 +0000">
+    <title lang="zh">親戚不計較(2079)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710173000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">親戚不計較(2080)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">藍色水玲瓏(132)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710190000 +0000" stop="20250710193000 +0000">
+    <title lang="zh">藍色水玲瓏(79)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710193000 +0000" stop="20250710203000 +0000">
+    <title lang="zh">藍色水玲瓏(133)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710203000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">藍色水玲瓏(80)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">關鍵時刻(123)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710220000 +0000" stop="20250710223000 +0000">
+    <title lang="zh">關鍵時刻(124)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710223000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">親戚不計較(1916)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">冰火五重天(75)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334808" start="20250711000000 +0000" stop="20250711003000 +0000">
+    <title lang="zh">親戚不計較(2077)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711003000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">親戚不計較(2078)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711010000 +0000" stop="20250711013000 +0000">
+    <title lang="zh">親戚不計較(2079)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711013000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">親戚不計較(2080)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711020000 +0000" stop="20250711023000 +0000">
+    <title lang="zh">關鍵時刻(123)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711023000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">藍色水玲瓏(80)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">關鍵時刻(124)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">藍色水玲瓏(132)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711050000 +0000" stop="20250711053000 +0000">
+    <title lang="zh">台灣啟示錄(26)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711053000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">藍色水玲瓏(133)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711060000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">台灣啟示錄(15)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711070000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">包青天(39)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711080000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">包青天(40)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711090000 +0000" stop="20250711093000 +0000">
+    <title lang="zh">親戚不計較(2081)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711093000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">親戚不計較(2082)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711100000 +0000" stop="20250711103000 +0000">
+    <title lang="zh">親戚不計較(2083)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711103000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">親戚不計較(2084)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">倚天屠龍記(61)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">倚天屠龍記(62)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711130000 +0000" stop="20250711143000 +0000">
+    <title lang="zh">藍色水玲瓏(159)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711143000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">藍色水玲瓏(160)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711160000 +0000" stop="20250711163000 +0000">
+    <title lang="zh">親戚不計較(2081)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711163000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">親戚不計較(2082)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711170000 +0000" stop="20250711173000 +0000">
+    <title lang="zh">親戚不計較(2083)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711173000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">親戚不計較(2084)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711180000 +0000" stop="20250711193000 +0000">
+    <title lang="zh">藍色水玲瓏(134)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711193000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">藍色水玲瓏(135)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">關鍵時刻(125)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711220000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">關鍵時刻(126)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">冰火五重天(76)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334808" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">親戚不計較(2081)(普)</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="370259" start="20250710015500 +0000" stop="20250710040000 +0000">
+    <title lang="zh">大獨裁者</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710040000 +0000" stop="20250710055700 +0000">
+    <title lang="zh">情婦</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710055700 +0000" stop="20250710074900 +0000">
+    <title lang="zh">007情報員 金手指</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710074900 +0000" stop="20250710094700 +0000">
+    <title lang="zh">鐘樓怪人 The Hunchback of Notre Dame</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710094700 +0000" stop="20250710115100 +0000">
+    <title lang="zh">小婦人</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710115100 +0000" stop="20250710135500 +0000">
+    <title lang="zh">玉女神駒</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710135500 +0000" stop="20250710160000 +0000">
+    <title lang="zh">大獨裁者</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710160000 +0000" stop="20250710180400 +0000">
+    <title lang="zh">公寓春光</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710180400 +0000" stop="20250710201100 +0000">
+    <title lang="zh">諜網迷魂</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710201100 +0000" stop="20250710222100 +0000">
+    <title lang="zh">007情報員 霹靂彈</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250710222100 +0000" stop="20250711000000 +0000">
+    <title lang="zh">風雲人物</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370259" start="20250711003100 +0000" stop="20250711024600 +0000">
+    <title lang="zh">江湖浪子</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711024600 +0000" stop="20250711040000 +0000">
+    <title lang="zh">木乃伊 The Mummy</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711040000 +0000" stop="20250711060400 +0000">
+    <title lang="zh">公寓春光</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711060400 +0000" stop="20250711081100 +0000">
+    <title lang="zh">諜網迷魂</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711081100 +0000" stop="20250711102100 +0000">
+    <title lang="zh">007情報員 霹靂彈</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711102100 +0000" stop="20250711123100 +0000">
+    <title lang="zh">風雲人物</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711123100 +0000" stop="20250711144600 +0000">
+    <title lang="zh">江湖浪子</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711144600 +0000" stop="20250711160000 +0000">
+    <title lang="zh">木乃伊 The Mummy</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711160000 +0000" stop="20250711173400 +0000">
+    <title lang="zh">怪獸特輯 哥吉拉之怪獸大戰爭</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711173400 +0000" stop="20250711191000 +0000">
+    <title lang="zh">怪獸特輯 哥吉拉的誕生</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711191000 +0000" stop="20250711204900 +0000">
+    <title lang="zh">怪獸特輯 金剛</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711204900 +0000" stop="20250711223000 +0000">
+    <title lang="zh">怪獸特輯 摩斯拉的誕生</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711223000 +0000" stop="20250711234800 +0000">
+    <title lang="zh">怪獸特輯 卡美拉的誕生</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370259" start="20250711234800 +0000" stop="20250712000000 +0000">
+    <title lang="zh">怪獸特輯 哥吉拉的逆襲</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250710010100 +0000" stop="20250710022700 +0000">
+    <title lang="zh">阿嬤的秘密【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710022700 +0000" stop="20250710040000 +0000">
+    <title lang="zh">阿弟仔，知道不知道【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710040000 +0000" stop="20250710053500 +0000">
+    <title lang="zh">素蘭要出嫁【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710053500 +0000" stop="20250710070500 +0000">
+    <title lang="zh">真實影像【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710070500 +0000" stop="20250710084000 +0000">
+    <title lang="zh">浮光掠影的剎那【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710084000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">時光照應【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710100000 +0000" stop="20250710112500 +0000">
+    <title lang="zh">第十二張生肖卡【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710112500 +0000" stop="20250710125500 +0000">
+    <title lang="zh">移民天堂【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710125500 +0000" stop="20250710143600 +0000">
+    <title lang="zh">情人的眼淚【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710143600 +0000" stop="20250710160000 +0000">
+    <title lang="zh">專車【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710160000 +0000" stop="20250710173700 +0000">
+    <title lang="zh">在親密與孤獨間漂流的愛情【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710173700 +0000" stop="20250710185900 +0000">
+    <title lang="zh">再看我一眼【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710185900 +0000" stop="20250710203000 +0000">
+    <title lang="zh">刑法第274條【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710203000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">雙重約會【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710220000 +0000" stop="20250710232900 +0000">
+    <title lang="zh">艾草【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250710232900 +0000" stop="20250711000000 +0000">
+    <title lang="zh">老魏【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370226" start="20250711005700 +0000" stop="20250711023100 +0000">
+    <title lang="zh">百里香煎魚【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711023100 +0000" stop="20250711040000 +0000">
+    <title lang="zh">老街狂想曲【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711040000 +0000" stop="20250711053300 +0000">
+    <title lang="zh">我的阿嬤是鬼【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711053300 +0000" stop="20250711070400 +0000">
+    <title lang="zh">快樂的出航【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711070400 +0000" stop="20250711083200 +0000">
+    <title lang="zh">我的冒泡屋【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711083200 +0000" stop="20250711100000 +0000">
+    <title lang="zh">弟弟放暑假【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711100000 +0000" stop="20250711113100 +0000">
+    <title lang="zh">垃圾魚【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711113100 +0000" stop="20250711125700 +0000">
+    <title lang="zh">那一年曾做錯的事【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711125700 +0000" stop="20250711143200 +0000">
+    <title lang="zh">呼拉姐妹花【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711143200 +0000" stop="20250711160000 +0000">
+    <title lang="zh">那年夏天的浪聲【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711160000 +0000" stop="20250711172600 +0000">
+    <title lang="zh">網路情書【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711172600 +0000" stop="20250711190000 +0000">
+    <title lang="zh">違章天堂【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711190000 +0000" stop="20250711202900 +0000">
+    <title lang="zh">腳踏車的祝福【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711202900 +0000" stop="20250711220000 +0000">
+    <title lang="zh">載我回甲仙【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711220000 +0000" stop="20250711232800 +0000">
+    <title lang="zh">歸‧途【保】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370226" start="20250711232800 +0000" stop="20250712000000 +0000">
+    <title lang="zh">臉盲【保】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250710000000 +0000" stop="20250710013000 +0000">
+    <title lang="zh">醉後怨偶【護】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710013000 +0000" stop="20250710033000 +0000">
+    <title lang="zh">救救旱鴨子【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710033000 +0000" stop="20250710043000 +0000">
+    <title lang="zh">我在墾丁天氣晴#第3集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710043000 +0000" stop="20250710063000 +0000">
+    <title lang="zh">阿嬤的小公主【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710063000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">有家民宿【護】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710080000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">哪吒之魔童降世【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710100000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">帥哥西裝【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710120000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">我在墾丁天氣晴#第4集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710130000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">神鬼網戰【輔15】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">邪惡的孩子【輔12】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">邪惡的孩子【輔12】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710170000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">帥哥西裝【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710190000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">哪吒之魔童降世【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710210000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">我在墾丁天氣晴#第4集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710220000 +0000" stop="20250710233000 +0000">
+    <title lang="zh">對頭冤家【護】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250710233000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">帥哥西裝【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370240" start="20250711013000 +0000" stop="20250711033000 +0000">
+    <title lang="zh">哪吒之魔童降世【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711033000 +0000" stop="20250711043000 +0000">
+    <title lang="zh">我在墾丁天氣晴#第4集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711043000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">時間守護者【護】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711060000 +0000" stop="20250711073000 +0000">
+    <title lang="zh">鍾馗誅妖傳【護】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711073000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">海苔億萬富翁【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711100000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">馬拉松小子【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">我在墾丁天氣晴#第5集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711130000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">龍在江湖【輔12】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">那些年，輕狂的事【輔12】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711160000 +0000" stop="20250711170000 +0000">
+    <title lang="zh">那些年，輕狂的事【輔12】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711170000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">馬拉松小子【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711190000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">我要活下去【護】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711210000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">我在墾丁天氣晴#第5集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711220000 +0000" stop="20250711233000 +0000">
+    <title lang="zh">師聲對決【護】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370240" start="20250711233000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">馬拉松小子【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250710000300 +0000" stop="20250710012200 +0000">
+    <title lang="zh">新兵日記-第16集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710012200 +0000" stop="20250710030000 +0000">
+    <title lang="zh">父與子-第221集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710030000 +0000" stop="20250710032300 +0000">
+    <title lang="zh">實習醫師鬥格-第320集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710032300 +0000" stop="20250710040800 +0000">
+    <title lang="zh">飛龍在天-第21集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710040800 +0000" stop="20250710054900 +0000">
+    <title lang="zh">好運來-第123集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710054900 +0000" stop="20250710070800 +0000">
+    <title lang="zh">新兵日記-第16集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710070800 +0000" stop="20250710084700 +0000">
+    <title lang="zh">父與子-第221集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710084700 +0000" stop="20250710090900 +0000">
+    <title lang="zh">實習醫師鬥格-第320集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710090900 +0000" stop="20250710095500 +0000">
+    <title lang="zh">飛龍在天-第21集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710095500 +0000" stop="20250710113500 +0000">
+    <title lang="zh">好運來-第123集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710113500 +0000" stop="20250710125400 +0000">
+    <title lang="zh">新兵日記-第16集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710125400 +0000" stop="20250710143300 +0000">
+    <title lang="zh">父與子-第221集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710143300 +0000" stop="20250710145500 +0000">
+    <title lang="zh">實習醫師鬥格-第320集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710145500 +0000" stop="20250710154100 +0000">
+    <title lang="zh">飛龍在天-第21集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710154100 +0000" stop="20250710172100 +0000">
+    <title lang="zh">好運來-第123集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710172100 +0000" stop="20250710190200 +0000">
+    <title lang="zh">好運來-第124集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710190200 +0000" stop="20250710202200 +0000">
+    <title lang="zh">新兵日記-第17集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710202200 +0000" stop="20250710220000 +0000">
+    <title lang="zh">父與子-第222集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710220000 +0000" stop="20250710222200 +0000">
+    <title lang="zh">實習醫師鬥格-第321集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710222200 +0000" stop="20250710230600 +0000">
+    <title lang="zh">飛龍在天-第22集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250710230600 +0000" stop="20250711000000 +0000">
+    <title lang="zh">好運來-第124集【普】</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="370227" start="20250711004700 +0000" stop="20250711020700 +0000">
+    <title lang="zh">新兵日記-第17集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711020700 +0000" stop="20250711034500 +0000">
+    <title lang="zh">父與子-第222集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711034500 +0000" stop="20250711040700 +0000">
+    <title lang="zh">實習醫師鬥格-第321集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711040700 +0000" stop="20250711045100 +0000">
+    <title lang="zh">飛龍在天-第22集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711045100 +0000" stop="20250711063200 +0000">
+    <title lang="zh">好運來-第124集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711063200 +0000" stop="20250711075200 +0000">
+    <title lang="zh">新兵日記-第17集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711075200 +0000" stop="20250711093000 +0000">
+    <title lang="zh">父與子-第222集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711093000 +0000" stop="20250711095200 +0000">
+    <title lang="zh">實習醫師鬥格-第321集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711095200 +0000" stop="20250711103600 +0000">
+    <title lang="zh">飛龍在天-第22集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711103600 +0000" stop="20250711121700 +0000">
+    <title lang="zh">好運來-第124集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711121700 +0000" stop="20250711133700 +0000">
+    <title lang="zh">新兵日記-第17集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711133700 +0000" stop="20250711151500 +0000">
+    <title lang="zh">父與子-第222集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711151500 +0000" stop="20250711153700 +0000">
+    <title lang="zh">實習醫師鬥格-第321集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711153700 +0000" stop="20250711162100 +0000">
+    <title lang="zh">飛龍在天-第22集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711162100 +0000" stop="20250711180200 +0000">
+    <title lang="zh">好運來-第120集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711180200 +0000" stop="20250711192100 +0000">
+    <title lang="zh">新兵日記-第13集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711192100 +0000" stop="20250711205900 +0000">
+    <title lang="zh">父與子-第218集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711205900 +0000" stop="20250711212200 +0000">
+    <title lang="zh">實習醫師鬥格-第317集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711212200 +0000" stop="20250711220600 +0000">
+    <title lang="zh">飛龍在天-第18集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711220600 +0000" stop="20250711234700 +0000">
+    <title lang="zh">好運來-第121集【普】</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="370227" start="20250711234700 +0000" stop="20250712000000 +0000">
+    <title lang="zh">新兵日記-第14集【普】</title>
     <desc/>
     <date>2025-07-11</date>
   </programme>
