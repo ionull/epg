@@ -76,7 +76,8 @@ const displayNameRenames = {
   '公視戲劇': '公視戲劇台',
   //'ViuTVsix': 'ViuTV-Six',
   '港台电视31': '港台電視31',
-  '港台电视32': '港台電視32'
+  '港台电视32': '港台電視32',
+  'CHC高清电影': 'CHC影迷电影'
 };
 
 async function fetchAndParse(url) {
