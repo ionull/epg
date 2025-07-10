@@ -85,23 +85,23 @@
     <icon src="https://epg.pw/media/images/epg/2025/01/28/20250128133200692828_94"/>
   </channel>
   <channel id="334779">
-    <display-name lang="Taiwan">龍華電影HD</display-name>
+    <display-name lang="Taiwan">龍華電影台</display-name>
     <icon src=""/>
   </channel>
   <channel id="334835">
-    <display-name lang="Taiwan">龍華經典HD</display-name>
+    <display-name lang="Taiwan">龍華經典台</display-name>
     <icon src=""/>
   </channel>
   <channel id="334794">
-    <display-name lang="Taiwan">龍華偶像HD</display-name>
+    <display-name lang="Taiwan">龍華偶像台</display-name>
     <icon src=""/>
   </channel>
   <channel id="334887">
-    <display-name lang="Taiwan">龍華戲劇HD</display-name>
+    <display-name lang="Taiwan">龍華戲劇台</display-name>
     <icon src=""/>
   </channel>
   <channel id="334789">
-    <display-name lang="Taiwan">龍華影劇HD</display-name>
+    <display-name lang="Taiwan">龍華日韓台</display-name>
     <icon src=""/>
   </channel>
   <programme channel="410372" start="20250710000000 +0000" stop="20250710010000 +0000">
