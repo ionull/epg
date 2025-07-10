@@ -35,6 +35,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git pull
-          git add merged.xml
+          git add merged.xml merged.xml.gz
           git commit -m "Update merged EPG file"
           git push

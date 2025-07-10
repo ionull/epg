@@ -5,6 +5,7 @@ const xml2js = require('xml2js');
 const zlib = require('zlib');
 const { pipeline } = require('stream/promises');
 const { Readable } = require('stream');
+const path = require('path');
 
 const urls = [
   "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/singapore.xml", // singapore
@@ -128,9 +129,23 @@ async function gunzipBuffer(buffer) {
 
     const builder = new xml2js.Builder();
     const xml = builder.buildObject(merged);
-    fs.writeFileSync(output, xml, 'utf8');
 
-    console.log(`Merged ${urls.length} EPG files into ${output}`);
+    const baseOutput = output.endsWith('.gz') ? output.replace(/\.gz$/, '') : output;
+    const gzipOutput = `${baseOutput}.gz`;
+
+    // Save plain XML
+    fs.writeFileSync(baseOutput, xml, 'utf8');
+    console.log(`Saved plain XML file: ${baseOutput}`);
+
+    // Save .gz compressed version
+    zlib.gzip(xml, (err, buffer) => {
+      if (err) {
+        core.setFailed(`Gzip error: ${err.message}`);
+        return;
+      }
+      fs.writeFileSync(gzipOutput, buffer);
+      console.log(`Saved compressed file: ${gzipOutput}`);
+    });
   } catch (error) {
     core.setFailed(error.message);
   }
