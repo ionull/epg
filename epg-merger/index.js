@@ -62,9 +62,11 @@ async function fetchAndParse(url) {
 
     for (const p of parsed) {
       for (const ch of p.tv.channel || []) {
-        const name = ch['display-name'];
+        const nameObj = ch['display-name']?.[0];
+        const name = nameObj?._?.trim();
+
         if (name && displayNameRenames[name]) {
-          ch['display-name'][0] = displayNameRenames[name];
+          nameObj._ = displayNameRenames[name];
         }
         merged.tv.channel.push(ch);
       }
