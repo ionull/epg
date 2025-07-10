@@ -2,8 +2,13 @@ const core = require('@actions/core');
 const fs = require('fs');
 const fetch = require('node-fetch');
 const xml2js = require('xml2js');
+const zlib = require('zlib');
+const { pipeline } = require('stream/promises');
+const { Readable } = require('stream');
 
 const urls = [
+  "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/singapore.xml", // singapore
+  "https://epg.112114.xyz/pp.xml.gz", // cn
   "https://epg.pw/api/epg.xml?channel_id=410372", // 中天亚洲
   "https://epg.pw/api/epg.xml?channel_id=370246", // cinema world
   "https://epg.pw/api/epg.xml?channel_id=370144", // 三立综合
@@ -68,9 +73,27 @@ const displayNameRenames = {
 
 async function fetchAndParse(url) {
   const res = await fetch(url);
-  const text = await res.text();
-  return xml2js.parseStringPromise(text);
+  if (!res.ok) throw new Error(`Failed to fetch ${url}`);
+
+  const isGz = url.endsWith('.gz');
+
+  const buffer = await res.buffer();
+  const xml = isGz
+    ? await gunzipBuffer(buffer)
+    : buffer.toString('utf8');
+
+  return xml2js.parseStringPromise(xml);
 }
+
+async function gunzipBuffer(buffer) {
+  return new Promise((resolve, reject) => {
+    zlib.gunzip(buffer, (err, output) => {
+      if (err) reject(err);
+      else resolve(output.toString('utf8'));
+    });
+  });
+}
+
 
 (async () => {
   try {
