@@ -22,6 +22,7 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370185", // 民视综艺台
   "https://epg.pw/api/epg.xml?channel_id=370150", // 靖天综合台
   "https://epg.pw/api/epg.xml?channel_id=368894", // 靖天欢乐台
+  "https://epg.pw/api/epg.xml?channel_id=370188", // 靖天国际
   "https://epg.pw/api/epg.xml?channel_id=370149", // 愛爾達娛樂台
   "https://epg.pw/api/epg.xml?channel_id=368585", // Mezzo Live HD
   "https://epg.pw/api/epg.xml?channel_id=370244", // 影迷数位电影台
@@ -57,6 +58,22 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370226", // 公视戏剧
   "https://epg.pw/api/epg.xml?channel_id=370240", // 采昌影剧
   "https://epg.pw/api/epg.xml?channel_id=370227", // 民视影剧
+  "https://epg.pw/api/epg.xml?channel_id=370186", // 猪哥亮
+  "https://epg.pw/api/epg.xml?channel_id=370138", // 民视台湾
+  "https://epg.pw/api/epg.xml?channel_id=370139", // 民视
+  "https://epg.pw/api/epg.xml?channel_id=370141", // 中视
+  "https://epg.pw/api/epg.xml?channel_id=370142", // 中视经典
+  "https://epg.pw/api/epg.xml?channel_id=370147", // 中视菁采
+  "https://epg.pw/api/epg.xml?channel_id=370195", // trace urban
+  "https://epg.pw/api/epg.xml?channel_id=370197", // mezzo live
+  "https://epg.pw/api/epg.xml?channel_id=370198", // classica
+  "https://epg.pw/api/epg.xml?channel_id=370218", // 幸福空间
+  "https://epg.pw/api/epg.xml?channel_id=370224", // tv5monde
+  "https://epg.pw/api/epg.xml?channel_id=370196", // mtv
+  "https://epg.pw/api/epg.xml?channel_id=370193", // livetime
+  "https://epg.pw/api/epg.xml?channel_id=370194", // cmusic
+  "https://epg.pw/api/epg.xml?channel_id=370217", // fun探索
+  "https://epg.pw/api/epg.xml?channel_id=370209", // 时尚运动
   "https://epg.112114.xyz/pp.xml.gz", // cn
 ];
 
@@ -77,7 +94,9 @@ const displayNameRenames = {
   //'ViuTVsix': 'ViuTV-Six',
   '港台电视31': '港台電視31',
   '港台电视32': '港台電視32',
-  'CHC高清电影': 'CHC影迷电影'
+  'CHC高清电影': 'CHC影迷电影',
+  'KLT-靖天國際台': '靖天國際台',
+  'fun探索娛樂台': 'Fun-探索娛樂台'
 };
 
 async function fetchAndParse(url) {
