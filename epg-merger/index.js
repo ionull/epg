@@ -57,7 +57,6 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370226", // 公视戏剧
   "https://epg.pw/api/epg.xml?channel_id=370240", // 采昌影剧
   "https://epg.pw/api/epg.xml?channel_id=370227", // 民视影剧
-  "https://epg.iill.top/epg?t=.gz", // yang
   "https://epg.112114.xyz/pp.xml.gz", // cn
 ];
 
