@@ -62,7 +62,7 @@ async function fetchAndParse(url) {
 
     for (const p of parsed) {
       for (const ch of p.tv.channel || []) {
-        const name = ch['display-name']?.trim();
+        const name = ch['display-name'];
         if (name && displayNameRenames[name]) {
           ch['display-name'][0] = displayNameRenames[name];
         }
