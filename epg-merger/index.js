@@ -31,6 +31,23 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=334794", // 龙华偶像
   "https://epg.pw/api/epg.xml?channel_id=334887", // 龙华戏剧
   "https://epg.pw/api/epg.xml?channel_id=334789", // 龙华日韩
+  "https://epg.pw/api/epg.xml?channel_id=370247", // my cinema euro
+  "https://epg.pw/api/epg.xml?channel_id=412028", // 韩国娱乐
+  "https://epg.pw/api/epg.xml?channel_id=370146", // 八大综艺
+  "https://epg.pw/api/epg.xml?channel_id=370231", // 八大精彩
+  "https://epg.pw/api/epg.xml?channel_id=370183", // tvbs
+  "https://epg.pw/api/epg.xml?channel_id=370191", // tvbs欢乐
+  "https://epg.pw/api/epg.xml?channel_id=370257", // tvbs综艺
+  "https://epg.pw/api/epg.xml?channel_id=370148", // tvbs精彩
+  "https://epg.pw/api/epg.xml?channel_id=370258", // tvbs台剧
+  "https://epg.pw/api/epg.xml?channel_id=370192", // rock enl
+  "https://epg.pw/api/epg.xml?channel_id=370229", // hits
+  "https://epg.pw/api/epg.xml?channel_id=370263", // 戏剧免费看1
+  "https://epg.pw/api/epg.xml?channel_id=334808", // 台湾戏剧
+  "https://epg.pw/api/epg.xml?channel_id=370259", // 经典电影
+  "https://epg.pw/api/epg.xml?channel_id=370226", // 公视戏剧
+  "https://epg.pw/api/epg.xml?channel_id=370240", // 采昌影剧
+  "https://epg.pw/api/epg.xml?channel_id=370227", // 民视影剧
 ];
 
 const displayNameRenames = {
@@ -39,6 +56,14 @@ const displayNameRenames = {
   '龍華偶像HD': '龍華偶像台',
   '龍華戲劇HD': '龍華戲劇台',
   '龍華影劇HD': '龍華日韓台',
+  '韓國娛樂台 KMTV': '韓國娛樂台',
+  'TVBS精采台', 'TVBS-精采台',
+  'TVBS歡樂台', 'TVBS-歡樂台',
+  'TVBS綜藝台', 'TVBS-綜藝台',
+  'TVBS台劇台', 'TVBS-台劇台',
+  'HITS頻道', 'HITS-頻道',
+  '台灣戲劇HD', '台灣戲劇台',
+  '公視戲劇', '公視戲劇台'
 };
 
 async function fetchAndParse(url) {
