@@ -84,6 +84,26 @@
     <display-name lang="Hong Kong">東森亞洲衛視</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/01/28/20250128133200692828_94"/>
   </channel>
+  <channel id="334779">
+    <display-name lang="Taiwan">龍華電影HD</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="334835">
+    <display-name lang="Taiwan">龍華經典HD</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="334794">
+    <display-name lang="Taiwan">龍華偶像HD</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="334887">
+    <display-name lang="Taiwan">龍華戲劇HD</display-name>
+    <icon src=""/>
+  </channel>
+  <channel id="334789">
+    <display-name lang="Taiwan">龍華影劇HD</display-name>
+    <icon src=""/>
+  </channel>
   <programme channel="410372" start="20250710000000 +0000" stop="20250710010000 +0000">
     <title lang="zh">中天新聞Live</title>
     <desc/>
@@ -4408,5 +4428,875 @@
     <title lang="zh">超級總動員:第二十季 第33集 -基隆暖西國小 Vs. 高雄小鐵人 戰鬥陀螺 木棉花</title>
     <desc>基隆暖西國小 VS. 高雄小鐵人 戰鬥陀螺 木棉花-光之美少女 超級金頭腦</desc>
     <date>2025-07-12</date>
+  </programme>
+  <programme channel="334779" start="20250710000000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">皇甫神醫(19,20)(首)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710020000 +0000" stop="20250710041000 +0000">
+    <title lang="zh">瘋狂的外星人(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710041000 +0000" stop="20250710042000 +0000">
+    <title lang="zh">冰峰暴(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710042000 +0000" stop="20250710062000 +0000">
+    <title lang="zh">兩隻老虎(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710062000 +0000" stop="20250710062500 +0000">
+    <title lang="zh">銀河補習班(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710062500 +0000" stop="20250710084500 +0000">
+    <title lang="zh">愛的禮讚(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710084500 +0000" stop="20250710092000 +0000">
+    <title lang="zh">野夏天(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710092000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">逃學威龍2(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710110000 +0000" stop="20250710112500 +0000">
+    <title lang="zh">嚦咕嚦咕新年財(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710112500 +0000" stop="20250710130000 +0000">
+    <title lang="zh">蘇乞兒之武功蓋世(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710130000 +0000" stop="20250710145500 +0000">
+    <title lang="zh">飛龍猛將(首)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710145500 +0000" stop="20250710153000 +0000">
+    <title lang="zh">特務迷城(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710153000 +0000" stop="20250710171000 +0000">
+    <title lang="zh">李洛夫奇案(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710171000 +0000" stop="20250710190500 +0000">
+    <title lang="zh">唐山大兄(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710190500 +0000" stop="20250710191500 +0000">
+    <title lang="zh">廉政風雲：煙幕(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710191500 +0000" stop="20250710210500 +0000">
+    <title lang="zh">死亡塔(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710210500 +0000" stop="20250710212500 +0000">
+    <title lang="zh">無人區(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710212500 +0000" stop="20250710232500 +0000">
+    <title lang="zh">破風(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250710232500 +0000" stop="20250711000000 +0000">
+    <title lang="zh">賭神3之少年賭神(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334779" start="20250711000000 +0000" stop="20250711013000 +0000">
+    <title lang="zh">皇甫神醫(19,20)(首)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711013000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">花木蘭(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711020000 +0000" stop="20250711035000 +0000">
+    <title lang="zh">瘋狂的外星人(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711035000 +0000" stop="20250711042000 +0000">
+    <title lang="zh">唐門之神犼雙雄(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711042000 +0000" stop="20250711053500 +0000">
+    <title lang="zh">兩隻老虎(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711053500 +0000" stop="20250711062000 +0000">
+    <title lang="zh">花田囍事(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711062000 +0000" stop="20250711072500 +0000">
+    <title lang="zh">銀河補習班(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711072500 +0000" stop="20250711092000 +0000">
+    <title lang="zh">大漢風(22-24)(首)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711092000 +0000" stop="20250711102500 +0000">
+    <title lang="zh">逃學威龍2(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711102500 +0000" stop="20250711112500 +0000">
+    <title lang="zh">龍馬精神(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711112500 +0000" stop="20250711130000 +0000">
+    <title lang="zh">蘇乞兒之武功蓋世(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711130000 +0000" stop="20250711145500 +0000">
+    <title lang="zh">血滴子(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711145500 +0000" stop="20250711152000 +0000">
+    <title lang="zh">特務迷城(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711152000 +0000" stop="20250711171000 +0000">
+    <title lang="zh">困獸(輔15)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711171000 +0000" stop="20250711171500 +0000">
+    <title lang="zh">唐山大兄(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711171500 +0000" stop="20250711191500 +0000">
+    <title lang="zh">最強囍事(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711191500 +0000" stop="20250711192500 +0000">
+    <title lang="zh">死亡塔(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711192500 +0000" stop="20250711210500 +0000">
+    <title lang="zh">河神：詭水怪談(輔12)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711210500 +0000" stop="20250711211500 +0000">
+    <title lang="zh">無人區(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711211500 +0000" stop="20250711232500 +0000">
+    <title lang="zh">九品芝麻官(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334779" start="20250711232500 +0000" stop="20250712000000 +0000">
+    <title lang="zh">賭俠1999(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250710000000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">戰略大作戰(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710020000 +0000" stop="20250710023500 +0000">
+    <title lang="zh">狂沙十萬里(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710023500 +0000" stop="20250710050500 +0000">
+    <title lang="zh">第一爐香(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710050500 +0000" stop="20250710071000 +0000">
+    <title lang="zh">越南大戰(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710071000 +0000" stop="20250710074500 +0000">
+    <title lang="zh">浩劫餘生：人猿星球(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710074500 +0000" stop="20250710091500 +0000">
+    <title lang="zh">大洪荒(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710091500 +0000" stop="20250710092500 +0000">
+    <title lang="zh">行運超人(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710092500 +0000" stop="20250710110000 +0000">
+    <title lang="zh">開心鬼救開心鬼(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710110000 +0000" stop="20250710130000 +0000">
+    <title lang="zh">善德女王(39-40)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710130000 +0000" stop="20250710151000 +0000">
+    <title lang="zh">阿呆(輔12)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710151000 +0000" stop="20250710152500 +0000">
+    <title lang="zh">血染雪山堡(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710152500 +0000" stop="20250710180000 +0000">
+    <title lang="zh">歲月風雲之上海皇帝(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710180000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">收播(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250710220000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">好萊塢現場直擊(新)(護)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334835" start="20250711000000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">茶金(5-6)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711020000 +0000" stop="20250711023500 +0000">
+    <title lang="zh">教父(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711023500 +0000" stop="20250711050500 +0000">
+    <title lang="zh">第一爐香(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711050500 +0000" stop="20250711051000 +0000">
+    <title lang="zh">越南大戰(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711051000 +0000" stop="20250711072000 +0000">
+    <title lang="zh">雷瑪根鐵橋(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711072000 +0000" stop="20250711074500 +0000">
+    <title lang="zh">哥吉拉對黑多拉(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711074500 +0000" stop="20250711085500 +0000">
+    <title lang="zh">大洪荒(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711085500 +0000" stop="20250711092500 +0000">
+    <title lang="zh">茶金(5-6)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711092500 +0000" stop="20250711105500 +0000">
+    <title lang="zh">開心鬼救開心鬼(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711105500 +0000" stop="20250711110000 +0000">
+    <title lang="zh">吊人索(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711110000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">善德女王(39-40)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711130000 +0000" stop="20250711151000 +0000">
+    <title lang="zh">黃昏三鏢客(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711151000 +0000" stop="20250711162000 +0000">
+    <title lang="zh">血染雪山堡(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711162000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">異域2：孤軍(輔12)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711180000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">收播(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250711220000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">好萊塢現場直擊(新)(護)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334835" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">茶金(7-8)(普)</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="334794" start="20250710000000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">沉香如屑(2-3)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710020000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">珠玉在側(19-20)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">九尾狐傳(16)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">九尾狐傳(17)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710060000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">珠玉在側(19-20)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710080000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">時光之城(31-32)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710100000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">九尾狐傳(17)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">九尾狐傳(首)(18)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710120000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">珠玉在側(新)(21-22)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710140000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">沉香如屑(2-3)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">來吧！哪裡怕(12)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710170000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">九尾狐傳(17)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710180000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">1006的房客(21)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710190000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">1006的房客(22)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710200000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">愛情是Beautiful，人生是Wonderful(30-31)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250710220000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">我的野蠻王妃(24-25)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334794" start="20250711000000 +0000" stop="20250711010000 +0000">
+    <title lang="zh">好萊塢動作星球(首)(27-28)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">數學魔法(首)(5-8)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711020000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">小日子(7-8)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">來吧！哪裡怕(12)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">九尾狐傳(17)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711060000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">名不虛傳(首)(15-16)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711080000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">小日子(首)(9-10)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">我的野蠻王妃(26-27)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">九尾狐傳(首)(18)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711120000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">來吧！哪裡怕(完)(新)(13)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711140000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">愛情是Beautiful，人生是Wonderful(32-33)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711160000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">來吧！哪裡怕(完)(13)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711180000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">1006的房客(22)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711190000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">1006的房客(23)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711200000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">愛情是Beautiful，人生是Wonderful(32-33)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250711220000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">我的野蠻王妃(26-27)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334794" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">好萊塢動作星球(首)(29-30)(普)</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="334887" start="20250710000000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">錦衣夜行(3-4)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710020000 +0000" stop="20250710030000 +0000">
+    <title lang="zh">倚天屠龍記(17)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710030000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">卜案(完)(26)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710040000 +0000" stop="20250710050000 +0000">
+    <title lang="zh">風起洛陽(1)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710050000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">倚天屠龍記(17)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710060000 +0000" stop="20250710080000 +0000">
+    <title lang="zh">天下長河(完)(39-40)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710080000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">風起洛陽(2-3)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710090000 +0000" stop="20250710100000 +0000">
+    <title lang="zh">風起洛陽(1)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710100000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">錦衣夜行(新)(5-6)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710120000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">雍正王朝(1-2)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710140000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">商道系列：紅頂商人胡雪巖(新)(30-31)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710160000 +0000" stop="20250710180000 +0000">
+    <title lang="zh">灼灼風流(18-19)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710180000 +0000" stop="20250710200000 +0000">
+    <title lang="zh">六龍飛天(36-37)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710200000 +0000" stop="20250710220000 +0000">
+    <title lang="zh">六龍飛天(38-39)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710220000 +0000" stop="20250710233000 +0000">
+    <title lang="zh">台灣傳奇(22)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250710233000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">Talk一杯(22)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334887" start="20250711000000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">天下正道(3-4)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">天下正道(5-6)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">卜案(完)(26)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">灼灼風流(20-21)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">倚天屠龍記(17)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711060000 +0000" stop="20250711080000 +0000">
+    <title lang="zh">灼灼風流(22-23)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711080000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">六龍飛天(40-41)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711100000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">六龍飛天(42-43)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711120000 +0000" stop="20250711130000 +0000">
+    <title lang="zh">台灣傳奇(新)(23)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711130000 +0000" stop="20250711133000 +0000">
+    <title lang="zh">雍正王朝(1)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711133000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">Talk一杯(首)(23)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711140000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">灼灼風流(20-21)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711160000 +0000" stop="20250711180000 +0000">
+    <title lang="zh">灼灼風流(22-23)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711180000 +0000" stop="20250711200000 +0000">
+    <title lang="zh">六龍飛天(40-41)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711200000 +0000" stop="20250711220000 +0000">
+    <title lang="zh">六龍飛天(42-43)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711220000 +0000" stop="20250711233000 +0000">
+    <title lang="zh">台灣傳奇(23)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250711233000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">Talk一杯(23)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334887" start="20250712000000 +0000" stop="20250713000000 +0000">
+    <title lang="zh">天下正道(7-8)(普)</title>
+    <desc/>
+    <date>2025-07-12</date>
+  </programme>
+  <programme channel="334789" start="20250710010000 +0000" stop="20250710020000 +0000">
+    <title lang="zh">味之道(48)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710020000 +0000" stop="20250710040000 +0000">
+    <title lang="zh">當你沉睡時(首)(17-18)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710040000 +0000" stop="20250710060000 +0000">
+    <title lang="zh">粉紅色誘惑(89-90)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710060000 +0000" stop="20250710070000 +0000">
+    <title lang="zh">男朋友【雙語版】(22)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710070000 +0000" stop="20250710090000 +0000">
+    <title lang="zh">味之道(49-50)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710090000 +0000" stop="20250710110000 +0000">
+    <title lang="zh">秘密的男人【雙語版】(35-37)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710110000 +0000" stop="20250710120000 +0000">
+    <title lang="zh">男朋友【雙語版】(新)(23)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710120000 +0000" stop="20250710140000 +0000">
+    <title lang="zh">粉紅色誘惑(首)(91-92)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710140000 +0000" stop="20250710150000 +0000">
+    <title lang="zh">男朋友【雙語版】(23)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710150000 +0000" stop="20250710160000 +0000">
+    <title lang="zh">味之道(49)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710160000 +0000" stop="20250710170000 +0000">
+    <title lang="zh">白夜童話【雙語版】(28-30)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710170000 +0000" stop="20250710190000 +0000">
+    <title lang="zh">男朋友【雙語版】(21-22)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710190000 +0000" stop="20250710210000 +0000">
+    <title lang="zh">人偶之家【雙語版】(61-62)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710210000 +0000" stop="20250710223000 +0000">
+    <title lang="zh">花甲少年趣旅行S3(4)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710223000 +0000" stop="20250710230000 +0000">
+    <title lang="zh">今天下廚去(175)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250710230000 +0000" stop="20250711000000 +0000">
+    <title lang="zh">韓國小姐(完)(27-28)(普)</title>
+    <desc/>
+    <date>2025-07-10</date>
+  </programme>
+  <programme channel="334789" start="20250711010000 +0000" stop="20250711020000 +0000">
+    <title lang="zh">人偶之家【雙語版】(63-64)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711020000 +0000" stop="20250711030000 +0000">
+    <title lang="zh">當你沉睡時(首)(17-18)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711030000 +0000" stop="20250711040000 +0000">
+    <title lang="zh">媽媽要出嫁【雙語版】(32-33)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711040000 +0000" stop="20250711050000 +0000">
+    <title lang="zh">粉紅色誘惑(89-90)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711050000 +0000" stop="20250711060000 +0000">
+    <title lang="zh">花甲少年趣旅行S3(4)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711060000 +0000" stop="20250711063000 +0000">
+    <title lang="zh">男朋友【雙語版】(22)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711063000 +0000" stop="20250711070000 +0000">
+    <title lang="zh">今天下廚去(175)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711070000 +0000" stop="20250711090000 +0000">
+    <title lang="zh">白夜童話【雙語版】(31-33)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711090000 +0000" stop="20250711100000 +0000">
+    <title lang="zh">秘密的男人【雙語版】(35-37)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711100000 +0000" stop="20250711110000 +0000">
+    <title lang="zh">媽媽要出嫁【雙語版】(34-35)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711110000 +0000" stop="20250711120000 +0000">
+    <title lang="zh">男朋友【雙語版】(新)(23)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711120000 +0000" stop="20250711133000 +0000">
+    <title lang="zh">花甲少年趣旅行S3(首)(5)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711133000 +0000" stop="20250711140000 +0000">
+    <title lang="zh">今天下廚去(新)(176)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711140000 +0000" stop="20250711150000 +0000">
+    <title lang="zh">人偶之家【雙語版】(63-64)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711150000 +0000" stop="20250711160000 +0000">
+    <title lang="zh">味之道(49)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711160000 +0000" stop="20250711190000 +0000">
+    <title lang="zh">白夜童話【雙語版】(31-33)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711190000 +0000" stop="20250711210000 +0000">
+    <title lang="zh">人偶之家【雙語版】(63-64)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711210000 +0000" stop="20250711223000 +0000">
+    <title lang="zh">花甲少年趣旅行S3(5)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711223000 +0000" stop="20250711230000 +0000">
+    <title lang="zh">今天下廚去(176)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
+  </programme>
+  <programme channel="334789" start="20250711230000 +0000" stop="20250712000000 +0000">
+    <title lang="zh">銀行家(1-2)(普)</title>
+    <desc/>
+    <date>2025-07-11</date>
   </programme>
 </tv>
