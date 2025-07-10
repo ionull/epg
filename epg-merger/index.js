@@ -57,6 +57,7 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370226", // 公视戏剧
   "https://epg.pw/api/epg.xml?channel_id=370240", // 采昌影剧
   "https://epg.pw/api/epg.xml?channel_id=370227", // 民视影剧
+  "https://epg.iill.top/epg", // yang
   "https://epg.112114.xyz/pp.xml.gz", // cn
 ];
 
@@ -67,16 +68,16 @@ const displayNameRenames = {
   '龍華戲劇HD': '龍華戲劇台',
   '龍華影劇HD': '龍華日韓台',
   '韓國娛樂台 KMTV': '韓國娛樂台',
-  'TVBS精采台': 'TVBS-精采台',
-  'TVBS歡樂台': 'TVBS-歡樂台',
-  'TVBS綜藝台': 'TVBS-綜藝台',
-  'TVBS台劇台': 'TVBS-台劇台',
-  'HITS頻道': 'HITS-頻道',
+  //'TVBS精采台': 'TVBS-精采台',
+  //'TVBS歡樂台': 'TVBS-歡樂台',
+  //'TVBS綜藝台': 'TVBS-綜藝台',
+  //'TVBS台劇台': 'TVBS-台劇台',
+  //'HITS頻道': 'HITS-頻道',
   '台灣戲劇HD': '台灣戲劇台',
   '公視戲劇': '公視戲劇台',
-  'ViuTVsix': 'ViuTV-Six',
-  '港台电视31': '港台電視-31',
-  '港台电视32': '港台電視-32'
+  //'ViuTVsix': 'ViuTV-Six',
+  '港台电视31': '港台電視31',
+  '港台电视32': '港台電視32'
 };
 
 async function fetchAndParse(url) {
