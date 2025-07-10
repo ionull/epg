@@ -82,9 +82,15 @@ const displayNameRenames = {
 
 async function fetchAndParse(url) {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed to fetch ${url}`);
 
-  const isGz = url.endsWith('.gz');
+  if (!res.ok) {
+    throw new Error(`Failed to fetch ${url}: ${res.statusText}`);
+  }
+
+  const isGz =
+    url.endsWith('.gz') ||
+    res.headers.get('content-encoding') === 'gzip' ||
+    res.headers.get('content-type') === 'application/gzip';
 
   const buffer = await res.buffer();
   const xml = isGz
@@ -96,13 +102,12 @@ async function fetchAndParse(url) {
 
 async function gunzipBuffer(buffer) {
   return new Promise((resolve, reject) => {
-    zlib.gunzip(buffer, (err, output) => {
+    zlib.gunzip(buffer, (err, result) => {
       if (err) reject(err);
-      else resolve(output.toString('utf8'));
+      else resolve(result.toString('utf8'));
     });
   });
 }
-
 
 (async () => {
   try {
