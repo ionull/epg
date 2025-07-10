@@ -73,7 +73,7 @@ const displayNameRenames = {
   'HITS頻道': 'HITS-頻道',
   '台灣戲劇HD': '台灣戲劇台',
   '公視戲劇': '公視戲劇台',
-  'ViuTVsix', 'ViuTV-Six'
+  'ViuTVsix': 'ViuTV-Six'
 };
 
 async function fetchAndParse(url) {
