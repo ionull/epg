@@ -74,6 +74,7 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370194", // cmusic
   "https://epg.pw/api/epg.xml?channel_id=370217", // fun探索
   "https://epg.pw/api/epg.xml?channel_id=370209", // 时尚运动
+  "https://epg.pw/api/epg.xml?channel_id=370143", // 华视
   "https://epg.112114.xyz/pp.xml.gz", // cn
 ];
 
@@ -96,7 +97,8 @@ const displayNameRenames = {
   '港台电视32': '港台電視32',
   'CHC高清电影': 'CHC影迷电影',
   'KLT-靖天國際台': '靖天國際台',
-  'fun探索娛樂台': 'Fun-探索娛樂台'
+  'fun探索娛樂台': 'Fun-探索娛樂台',
+  'CNA': '亞洲新聞台'
 };
 
 async function fetchAndParse(url) {
