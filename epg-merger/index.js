@@ -75,6 +75,18 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370217", // fun探索
   "https://epg.pw/api/epg.xml?channel_id=370209", // 时尚运动
   "https://epg.pw/api/epg.xml?channel_id=370143", // 华视
+  "https://epg.pw/api/epg.xml?channel_id=370158", // davinci
+  "https://epg.pw/api/epg.xml?channel_id=370163", // 靖天卡通
+  "https://epg.pw/api/epg.xml?channel_id=370187", // 靖天育乐
+  "https://epg.pw/api/epg.xml?channel_id=370260", // 经典卡通
+  "https://epg.pw/api/epg.xml?channel_id=370164", // nice bingo
+  "https://epg.pw/api/epg.xml?channel_id=370159", // eltv english
+  "https://epg.pw/api/epg.xml?channel_id=410360", // nickelodeon
+  "https://epg.pw/api/epg.xml?channel_id=370157", // liveabc
+  "https://epg.pw/api/epg.xml?channel_id=370160", // nick jr
+  "https://epg.pw/api/epg.xml?channel_id=370262", // 精选动漫
+  "https://epg.pw/api/epg.xml?channel_id=370167", // momo
+  "https://epg.pw/api/epg.xml?channel_id=370162", // dreamworks
   "https://epg.112114.xyz/pp.xml.gz", // cn
 ];
 
@@ -97,7 +109,7 @@ const displayNameRenames = {
   '港台电视32': '港台電視32',
   'CHC高清电影': 'CHC影迷电影',
   'KLT-靖天國際台': '靖天國際台',
-  'fun探索娛樂台': 'Fun-探索娛樂台',
+  //'fun探索娛樂台': 'Fun-探索娛樂台',
   'CNA': '亞洲新聞台'
 };
 
