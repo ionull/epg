@@ -201,6 +201,7 @@ async function gunzipBuffer(buffer) {
           const name = nameObj?._?.trim();
           return epgziyongAllowedNames.includes(name);
         });
+        console.log('filteredChannels', filteredChannels);
 
         const allowedIds = filteredChannels.map(ch => ch.$.id);
 
