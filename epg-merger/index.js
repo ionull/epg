@@ -88,6 +88,24 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370167", // momo
   "https://epg.pw/api/epg.xml?channel_id=370162", // dreamworks
   "https://epg.pw/api/epg.xml?channel_id=414181", // INULTRA
+  "https://epg.pw/api/epg.xml?channel_id=370254", // DW
+  "https://epg.pw/api/epg.xml?channel_id=434232", // nhk world jp
+  "https://epg.pw/api/epg.xml?channel_id=374123", // france 24 eng
+  "https://epg.pw/api/epg.xml?channel_id=370178", // bloomberg
+  "https://epg.pw/api/epg.xml?channel_id=370253", // cnbc asia
+  "https://epg.pw/api/epg.xml?channel_id=370223", // luxe tv
+  "https://epg.pw/api/epg.xml?channel_id=370220", // history
+  "https://epg.pw/api/epg.xml?channel_id=370153", // global trekker
+  "https://epg.pw/api/epg.xml?channel_id=370215", // rollor
+  "https://epg.pw/api/epg.xml?channel_id=370177", // cti news
+  "https://epg.pw/api/epg.xml?channel_id=369324", // ctv news
+  "https://epg.pw/api/epg.xml?channel_id=370179",
+  "https://epg.pw/api/epg.xml?channel_id=408104",
+  "https://epg.pw/api/epg.xml?channel_id=370170", // ebc news
+  "https://epg.pw/api/epg.xml?channel_id=370174", // tvbs news
+  "https://epg.pw/api/epg.xml?channel_id=370172",
+  "https://epg.pw/api/epg.xml?channel_id=370211", // ginx
+  "https://epg.pw/api/epg.xml?channel_id=369154", // 靖天映画
   "https://epg.112114.xyz/pp.xml.gz", // cn
   "http://e.erw.cc/e.xml.gz", // cn local
 ];
@@ -114,7 +132,11 @@ const displayNameRenames = {
   //'fun探索娛樂台': 'Fun-探索娛樂台',
   'CNA': '亞洲新聞台',
   '南国都市4K': '南国都市',
-  'MCE 我的歐洲電影台': 'My Cinema Europe HD 我的歐洲電影'
+  'MCE 我的歐洲電影台': 'My Cinema Europe HD 我的歐洲電影',
+  'NHK World-Japan': 'NHK World Japan',
+  'FRANCE24 英文台': 'France 24 English',
+  'TVBS新聞': 'TVBS新聞台',
+  '靖天映畫': '靖天映畫台',
 };
 
 async function fetchAndParse(url) {
