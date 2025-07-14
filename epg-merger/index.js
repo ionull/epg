@@ -41,7 +41,7 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=334794", // 龙华偶像
   "https://epg.pw/api/epg.xml?channel_id=334887", // 龙华戏剧
   "https://epg.pw/api/epg.xml?channel_id=334789", // 龙华日韩
-  "https://epg.pw/api/epg.xml?channel_id=370247", // my cinema euro
+  "https://epg.pw/api/epg.xml?channel_id=334736", // my cinema euro
   "https://epg.pw/api/epg.xml?channel_id=412028", // 韩国娱乐
   "https://epg.pw/api/epg.xml?channel_id=370146", // 八大综艺
   "https://epg.pw/api/epg.xml?channel_id=370231", // 八大精彩
@@ -112,7 +112,8 @@ const displayNameRenames = {
   'KLT-靖天國際台': '靖天國際台',
   //'fun探索娛樂台': 'Fun-探索娛樂台',
   'CNA': '亞洲新聞台',
-  '南国都市4K': '南国都市'
+  '南国都市4K': '南国都市',
+  'MCE 我的歐洲電影台': 'My Cinema Europe HD 我的歐洲電影'
 };
 
 async function fetchAndParse(url) {
