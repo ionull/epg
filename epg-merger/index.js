@@ -197,7 +197,8 @@ async function gunzipBuffer(buffer) {
 
       if (isEpgziyong) {
         const filteredChannels = allChannels.filter(ch => {
-          const name = ch['display-name']?.[0];
+          const nameObj = ch['display-name']?.[0];
+          const name = nameObj?._?.trim();
           return epgziyongAllowedNames.includes(name);
         });
 
