@@ -111,7 +111,8 @@ const displayNameRenames = {
   'CHC高清电影': 'CHC影迷电影',
   'KLT-靖天國際台': '靖天國際台',
   //'fun探索娛樂台': 'Fun-探索娛樂台',
-  'CNA': '亞洲新聞台'
+  'CNA': '亞洲新聞台',
+  '南国都市4K': '南国都市'
 };
 
 async function fetchAndParse(url) {
