@@ -112,6 +112,7 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370145", // hokka
   "https://epg.pw/api/epg.xml?channel_id=370236", // cnex
   "https://epg.pw/api/epg.xml?channel_id=370222", // elta travel
+  "https://epg.pw/api/epg.xml?channel_id=408106", // asia travel
   "https://epg.112114.xyz/pp.xml.gz", // cn
   "http://e.erw.cc/e.xml.gz", // cn local
 ];
@@ -139,7 +140,7 @@ const displayNameRenames = {
   'CNA': '亞洲新聞台',
   '南国都市4K': '南国都市',
   'MCE 我的歐洲電影台': 'My Cinema Europe HD 我的歐洲電影',
-  'NHK World-Japan': 'NHK World Japan',
+  'NHK WORLD-JAPAN': 'NHK World Japan',
   'FRANCE24 英文台': 'France 24 English',
   'TVBS新聞': 'TVBS新聞台',
   '靖天映畫': '靖天映畫台',
