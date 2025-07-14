@@ -87,6 +87,7 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370262", // 精选动漫
   "https://epg.pw/api/epg.xml?channel_id=370167", // momo
   "https://epg.pw/api/epg.xml?channel_id=370162", // dreamworks
+  "https://epg.pw/api/epg.xml?channel_id=414181", // INULTRA
   "https://epg.112114.xyz/pp.xml.gz", // cn
   "http://e.erw.cc/e.xml.gz", // cn local
 ];
