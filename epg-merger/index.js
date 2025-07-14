@@ -115,6 +115,7 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=408106", // asia travel
   "https://epg.112114.xyz/pp.xml.gz", // cn
   "http://e.erw.cc/e.xml.gz", // cn local
+  "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/epgziyong.xml", // hk
 ];
 
 const displayNameRenames = {
