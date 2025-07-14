@@ -147,6 +147,8 @@ const displayNameRenames = {
   '靖天映畫': '靖天映畫台',
 };
 
+const epgziyongAllowedNames = ['TVB功夫台'];
+
 async function fetchAndParse(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Failed to fetch ${url}`);
@@ -184,17 +186,41 @@ async function gunzipBuffer(buffer) {
       }
     };
 
-    for (const p of parsed) {
-      for (const ch of p.tv.channel || []) {
-        const nameObj = ch['display-name']?.[0];
-        const name = nameObj?._?.trim();
+    for (let i = 0; i < parsed.length; i++) {
+      const p = parsed[i];
+      const url = urls[i];
 
-        if (name && displayNameRenames[name]) {
-          nameObj._ = displayNameRenames[name];
+      const allChannels = p.tv.channel || [];
+      const allProgrammes = p.tv.programme || [];
+
+      const isEpgziyong = url.includes('epgziyong');
+
+      if (isEpgziyong) {
+        const filteredChannels = allChannels.filter(ch => {
+          const name = ch['display-name']?.[0];
+          return epgziyongAllowedNames.includes(name);
+        });
+
+        const allowedIds = filteredChannels.map(ch => ch.$.id);
+
+        const filteredProgrammes = allProgrammes.filter(prog =>
+          allowedIds.includes(prog.$.channel)
+        );
+
+        merged.tv.channel.push(...filteredChannels);
+        merged.tv.programme.push(...filteredProgrammes);
+      } else {
+        for (const ch of p.tv.channel || []) {
+          const nameObj = ch['display-name']?.[0];
+          const name = nameObj?._?.trim();
+
+          if (name && displayNameRenames[name]) {
+            nameObj._ = displayNameRenames[name];
+          }
+          merged.tv.channel.push(ch);
         }
-        merged.tv.channel.push(ch);
+        merged.tv.programme.push(...(p.tv.programme || []));
       }
-      merged.tv.programme.push(...(p.tv.programme || []));
     }
 
     const builder = new xml2js.Builder();
