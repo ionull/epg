@@ -106,6 +106,12 @@ const urls = [
   "https://epg.pw/api/epg.xml?channel_id=370172",
   "https://epg.pw/api/epg.xml?channel_id=370211", // ginx
   "https://epg.pw/api/epg.xml?channel_id=369154", // 靖天映画
+  "https://epg.pw/api/epg.xml?channel_id=370152", // arirang
+  "https://epg.pw/api/epg.xml?channel_id=370210", // bike
+  "https://epg.pw/api/epg.xml?channel_id=370235", // ci
+  "https://epg.pw/api/epg.xml?channel_id=370145", // hokka
+  "https://epg.pw/api/epg.xml?channel_id=370236", // cnex
+  "https://epg.pw/api/epg.xml?channel_id=370222", // elta travel
   "https://epg.112114.xyz/pp.xml.gz", // cn
   "http://e.erw.cc/e.xml.gz", // cn local
 ];
