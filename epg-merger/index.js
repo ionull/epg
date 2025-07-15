@@ -176,7 +176,24 @@ async function gunzipBuffer(buffer) {
 (async () => {
   try {
     const output = core.getInput('output');
-    const parsed = await Promise.all(urls.map(fetchAndParse));
+    const configPath = core.getInput('config');
+    const configEntries = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+
+    const parsed = []
+
+    for (const entry of configEntries) {
+      const { url } = entry;
+      if (!url) continue;
+
+      try {
+        const data = await fetchAndParse(url);
+        parsed.push({ data, url, filterNames: entry.filter_names || [] });
+      } catch (err) {
+        console.warn(`⚠️ Failed to fetch/parse ${url}: ${err.message}`);
+      }
+    }
+
+    //const parsed = await Promise.all(urls.map(fetchAndParse));
 
     const merged = {
       tv: {
@@ -186,20 +203,24 @@ async function gunzipBuffer(buffer) {
       }
     };
 
-    for (let i = 0; i < parsed.length; i++) {
-      const p = parsed[i];
-      const url = urls[i];
+    for (const entry of parsed) {
+    //for (let i = 0; i < parsed.length; i++) {
+      //const p = parsed[i];
+      //const url = urls[i];
+      const p = entry.data;
+      const url = entry.url;
+      const filterNames = entry.filterNames;
 
       const allChannels = p.tv.channel || [];
       const allProgrammes = p.tv.programme || [];
 
-      const isEpgziyong = url.includes('epgziyong');
+      //const isEpgziyong = url.includes('epgziyong');
 
-      if (isEpgziyong) {
+      if (filterNames.length > 0) {
         const filteredChannels = allChannels.filter(ch => {
           const nameObj = ch['display-name']?.[0];
           const name = nameObj?._?.trim();
-          return epgziyongAllowedNames.includes(name);
+          return filterNames.includes(name);
         });
         console.log('filteredChannels', filteredChannels);
 

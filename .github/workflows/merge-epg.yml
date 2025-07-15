@@ -29,6 +29,7 @@ jobs:
         uses: ./epg-merger
         with:
           output: merged.xml
+          config: epg-merger/config-pw.json
 
       - name: Commit merged.xml
         run: |
