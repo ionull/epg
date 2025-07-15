@@ -1,0 +1,5 @@
+[
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/pw.xml.gz", "hint": "pw" },
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/pw-other.xml.gz", "hint": "pw-other" },
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/cn.xml.gz", "hint": "cn" }
+]
