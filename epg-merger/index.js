@@ -197,7 +197,7 @@ async function gunzipBuffer(buffer) {
 
     const merged = {
       tv: {
-        $: parsed[0].tv.$,
+        $: parsed[0].data.tv.$,
         channel: [],
         programme: []
       }
