@@ -110,7 +110,17 @@ async function gunzipBuffer(buffer) {
           allowedIds.includes(prog.$.channel)
         );
 
-        merged.tv.channel.push(...filteredChannels);
+        for (const ch of filteredChannels || []) {
+          const nameObj = ch['display-name']?.[0];
+          const name = nameObj?._?.trim();
+
+          if (name && displayNameRenames[name]) {
+            nameObj._ = displayNameRenames[name];
+          }
+          merged.tv.channel.push(ch);
+        }
+
+        //merged.tv.channel.push(...filteredChannels);
         merged.tv.programme.push(...filteredProgrammes);
       } else {
         for (const ch of p.tv.channel || []) {
