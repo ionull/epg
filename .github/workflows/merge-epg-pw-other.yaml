@@ -2,7 +2,7 @@ name: Merge EPG - pw other
 
 on:
   schedule:
-    - cron: '0 */1 * * *'   # Every 1 hours
+    - cron: '1 */1 * * *'   # Every 3 hours
   workflow_dispatch:        # Allow manual trigger
 
 permissions:

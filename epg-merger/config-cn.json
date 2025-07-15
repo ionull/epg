@@ -1,5 +1,4 @@
 [
   { "url": "https://epg.112114.xyz/pp.xml.gz", "hint": "cn" },
-  { "url": "http://e.erw.cc/e.xml.gz", "hint": "cn local" , "filter_names": ["五星体育"]},
-  { "url": "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/epgziyong.xml", "hint": "hk", "filter_names": ["TVB功夫台"] }
+  { "url": "http://e.erw.cc/e.xml.gz", "hint": "cn local" , "filter_names": ["五星体育"]}
 ]

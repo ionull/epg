@@ -1,8 +1,8 @@
-name: Merge EPG - cn
+name: Merge EPG - hk
 
 on:
   schedule:
-    - cron: '10 */1 * * *'   # Every 1 hours
+    - cron: '3 */1 * * *'   # Every 1 hours
   workflow_dispatch:        # Allow manual trigger
 
 permissions:
@@ -28,14 +28,14 @@ jobs:
       - name: Merge EPG
         uses: ./epg-merger
         with:
-          output: parts/cn.xml
-          config: epg-merger/config-cn.json
+          output: parts/hk.xml
+          config: epg-merger/config-hk.json
 
       - name: Commit merged.xml
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git pull
-          git add parts/cn.xml.gz
+          git add parts/hk.xml.gz
           git commit -m "Update merged EPG file"
           git push
