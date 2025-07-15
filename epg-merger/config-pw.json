@@ -22,6 +22,7 @@
   { "url": "https://epg.pw/api/epg.xml?channel_id=370241", "hint": "靖天映画" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370233", "hint": "靖天戏剧" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370242", "hint": "靖天电影" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=369154", "hint": "靖天映画" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370234", "hint": "靖洋戏剧台" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=410285", "hint": "now baogu" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=410286", "hint": "now baogu xingying" },

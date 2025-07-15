@@ -40,7 +40,6 @@
   { "url": "https://epg.pw/api/epg.xml?channel_id=370174", "hint": "tvbs news" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370172" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370211", "hint": "ginx" },
-  { "url": "https://epg.pw/api/epg.xml?channel_id=369154", "hint": "靖天映画" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370152", "hint": "arirang" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370210", "hint": "bike" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370235", "hint": "ci" },
