@@ -47,5 +47,5 @@
   { "url": "https://epg.pw/api/epg.xml?channel_id=370145", "hint": "hokka" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370236", "hint": "cnex" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370222", "hint": "elta travel" },
-  { "url": "https://epg.pw/api/epg.xml?channel_id=408106", "hint": "asia travel" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=408106", "hint": "asia travel" }
 ]
