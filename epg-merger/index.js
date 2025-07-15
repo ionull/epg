@@ -7,117 +7,6 @@ const { pipeline } = require('stream/promises');
 const { Readable } = require('stream');
 const path = require('path');
 
-const urls = [
-  "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/singapore.xml", // singapore
-  "https://epg.pw/api/epg.xml?channel_id=410274", // viutv
-  "https://epg.pw/api/epg.xml?channel_id=410273", // viutv6
-  "https://epg.pw/api/epg.xml?channel_id=368550", // rthk31
-  "https://epg.pw/api/epg.xml?channel_id=368551", // rthk32
-  "https://epg.pw/api/epg.xml?channel_id=410372", // 中天亚洲
-  "https://epg.pw/api/epg.xml?channel_id=370246", // cinema world
-  "https://epg.pw/api/epg.xml?channel_id=370144", // 三立综合
-  "https://epg.pw/api/epg.xml?channel_id=370245", // amc电影台
-  "https://epg.pw/api/epg.xml?channel_id=369171", // rock action
-  "https://epg.pw/api/epg.xml?channel_id=369325", // 中视
-  "https://epg.pw/api/epg.xml?channel_id=370185", // 民视综艺台
-  "https://epg.pw/api/epg.xml?channel_id=370150", // 靖天综合台
-  "https://epg.pw/api/epg.xml?channel_id=368894", // 靖天欢乐台
-  "https://epg.pw/api/epg.xml?channel_id=370188", // 靖天国际
-  "https://epg.pw/api/epg.xml?channel_id=370149", // 愛爾達娛樂台
-  "https://epg.pw/api/epg.xml?channel_id=368585", // Mezzo Live HD
-  "https://epg.pw/api/epg.xml?channel_id=370244", // 影迷数位电影台
-  "https://epg.pw/api/epg.xml?channel_id=410773", // 影迷数位纪实台
-  "https://epg.pw/api/epg.xml?channel_id=370151", // 靖天日本
-  "https://epg.pw/api/epg.xml?channel_id=370241", // 靖天映画
-  "https://epg.pw/api/epg.xml?channel_id=370233", // 靖天戏剧
-  "https://epg.pw/api/epg.xml?channel_id=370242", // 靖天电影
-  "https://epg.pw/api/epg.xml?channel_id=370234", // 靖洋戏剧台
-  "https://epg.pw/api/epg.xml?channel_id=410285", // now baogu
-  "https://epg.pw/api/epg.xml?channel_id=410286", // now baogu xingying
-  "https://epg.pw/api/epg.xml?channel_id=369806", // e-Le
-  "https://epg.pw/api/epg.xml?channel_id=410290", // ebc asia
-  "https://epg.pw/api/epg.xml?channel_id=334779", // 龙华电影
-  "https://epg.pw/api/epg.xml?channel_id=334835", // 龙华经典
-  "https://epg.pw/api/epg.xml?channel_id=334794", // 龙华偶像
-  "https://epg.pw/api/epg.xml?channel_id=334887", // 龙华戏剧
-  "https://epg.pw/api/epg.xml?channel_id=334789", // 龙华日韩
-  "https://epg.pw/api/epg.xml?channel_id=334736", // my cinema euro
-  "https://epg.pw/api/epg.xml?channel_id=412028", // 韩国娱乐
-  "https://epg.pw/api/epg.xml?channel_id=370146", // 八大综艺
-  "https://epg.pw/api/epg.xml?channel_id=370231", // 八大精彩
-  "https://epg.pw/api/epg.xml?channel_id=370183", // tvbs
-  "https://epg.pw/api/epg.xml?channel_id=370191", // tvbs欢乐
-  "https://epg.pw/api/epg.xml?channel_id=370257", // tvbs综艺
-  "https://epg.pw/api/epg.xml?channel_id=370148", // tvbs精彩
-  "https://epg.pw/api/epg.xml?channel_id=370258", // tvbs台剧
-  "https://epg.pw/api/epg.xml?channel_id=370192", // rock enl
-  "https://epg.pw/api/epg.xml?channel_id=370229", // hits
-  "https://epg.pw/api/epg.xml?channel_id=370263", // 戏剧免费看1
-  "https://epg.pw/api/epg.xml?channel_id=334808", // 台湾戏剧
-  "https://epg.pw/api/epg.xml?channel_id=370259", // 经典电影
-  "https://epg.pw/api/epg.xml?channel_id=370226", // 公视戏剧
-  "https://epg.pw/api/epg.xml?channel_id=370240", // 采昌影剧
-  "https://epg.pw/api/epg.xml?channel_id=370227", // 民视影剧
-  "https://epg.pw/api/epg.xml?channel_id=370186", // 猪哥亮
-  "https://epg.pw/api/epg.xml?channel_id=370138", // 民视台湾
-  "https://epg.pw/api/epg.xml?channel_id=370139", // 民视
-  "https://epg.pw/api/epg.xml?channel_id=370141", // 中视
-  "https://epg.pw/api/epg.xml?channel_id=370142", // 中视经典
-  "https://epg.pw/api/epg.xml?channel_id=370147", // 中视菁采
-  "https://epg.pw/api/epg.xml?channel_id=370195", // trace urban
-  "https://epg.pw/api/epg.xml?channel_id=370197", // mezzo live
-  "https://epg.pw/api/epg.xml?channel_id=370198", // classica
-  "https://epg.pw/api/epg.xml?channel_id=370218", // 幸福空间
-  "https://epg.pw/api/epg.xml?channel_id=370224", // tv5monde
-  "https://epg.pw/api/epg.xml?channel_id=370196", // mtv
-  "https://epg.pw/api/epg.xml?channel_id=370193", // livetime
-  "https://epg.pw/api/epg.xml?channel_id=370194", // cmusic
-  "https://epg.pw/api/epg.xml?channel_id=370217", // fun探索
-  "https://epg.pw/api/epg.xml?channel_id=370209", // 时尚运动
-  "https://epg.pw/api/epg.xml?channel_id=370143", // 华视
-  "https://epg.pw/api/epg.xml?channel_id=370158", // davinci
-  "https://epg.pw/api/epg.xml?channel_id=370163", // 靖天卡通
-  "https://epg.pw/api/epg.xml?channel_id=370187", // 靖天育乐
-  "https://epg.pw/api/epg.xml?channel_id=370260", // 经典卡通
-  "https://epg.pw/api/epg.xml?channel_id=370164", // nice bingo
-  "https://epg.pw/api/epg.xml?channel_id=370159", // eltv english
-  "https://epg.pw/api/epg.xml?channel_id=410360", // nickelodeon
-  "https://epg.pw/api/epg.xml?channel_id=370157", // liveabc
-  "https://epg.pw/api/epg.xml?channel_id=370160", // nick jr
-  "https://epg.pw/api/epg.xml?channel_id=370262", // 精选动漫
-  "https://epg.pw/api/epg.xml?channel_id=370167", // momo
-  "https://epg.pw/api/epg.xml?channel_id=370162", // dreamworks
-  "https://epg.pw/api/epg.xml?channel_id=414181", // INULTRA
-  "https://epg.pw/api/epg.xml?channel_id=370254", // DW
-  "https://epg.pw/api/epg.xml?channel_id=434232", // nhk world jp
-  "https://epg.pw/api/epg.xml?channel_id=374123", // france 24 eng
-  "https://epg.pw/api/epg.xml?channel_id=370178", // bloomberg
-  "https://epg.pw/api/epg.xml?channel_id=370253", // cnbc asia
-  "https://epg.pw/api/epg.xml?channel_id=370223", // luxe tv
-  "https://epg.pw/api/epg.xml?channel_id=370220", // history
-  "https://epg.pw/api/epg.xml?channel_id=370153", // global trekker
-  "https://epg.pw/api/epg.xml?channel_id=370215", // rollor
-  "https://epg.pw/api/epg.xml?channel_id=370177", // cti news
-  "https://epg.pw/api/epg.xml?channel_id=369324", // ctv news
-  "https://epg.pw/api/epg.xml?channel_id=370179",
-  "https://epg.pw/api/epg.xml?channel_id=408104",
-  "https://epg.pw/api/epg.xml?channel_id=370170", // ebc news
-  "https://epg.pw/api/epg.xml?channel_id=370174", // tvbs news
-  "https://epg.pw/api/epg.xml?channel_id=370172",
-  "https://epg.pw/api/epg.xml?channel_id=370211", // ginx
-  "https://epg.pw/api/epg.xml?channel_id=369154", // 靖天映画
-  "https://epg.pw/api/epg.xml?channel_id=370152", // arirang
-  "https://epg.pw/api/epg.xml?channel_id=370210", // bike
-  "https://epg.pw/api/epg.xml?channel_id=370235", // ci
-  "https://epg.pw/api/epg.xml?channel_id=370145", // hokka
-  "https://epg.pw/api/epg.xml?channel_id=370236", // cnex
-  "https://epg.pw/api/epg.xml?channel_id=370222", // elta travel
-  "https://epg.pw/api/epg.xml?channel_id=408106", // asia travel
-  "https://epg.112114.xyz/pp.xml.gz", // cn
-  "http://e.erw.cc/e.xml.gz", // cn local
-  "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/epgziyong.xml", // hk
-];
-
 const displayNameRenames = {
   '龍華電影HD': '龍華電影台',
   '龍華經典HD': '龍華經典台',
@@ -146,8 +35,6 @@ const displayNameRenames = {
   'TVBS新聞': 'TVBS新聞台',
   '靖天映畫': '靖天映畫台',
 };
-
-const epgziyongAllowedNames = ['TVB功夫台'];
 
 async function fetchAndParse(url) {
   const res = await fetch(url);
@@ -193,8 +80,6 @@ async function gunzipBuffer(buffer) {
       }
     }
 
-    //const parsed = await Promise.all(urls.map(fetchAndParse));
-
     const merged = {
       tv: {
         $: parsed[0].data.tv.$,
@@ -204,9 +89,6 @@ async function gunzipBuffer(buffer) {
     };
 
     for (const entry of parsed) {
-    //for (let i = 0; i < parsed.length; i++) {
-      //const p = parsed[i];
-      //const url = urls[i];
       const p = entry.data;
       const url = entry.url;
       const filterNames = entry.filterNames;
@@ -214,15 +96,13 @@ async function gunzipBuffer(buffer) {
       const allChannels = p.tv.channel || [];
       const allProgrammes = p.tv.programme || [];
 
-      //const isEpgziyong = url.includes('epgziyong');
-
       if (filterNames.length > 0) {
         const filteredChannels = allChannels.filter(ch => {
           const nameObj = ch['display-name']?.[0];
           const name = nameObj?._?.trim();
           return filterNames.includes(name);
         });
-        console.log('filteredChannels', filteredChannels);
+        // console.log('filteredChannels', filteredChannels);
 
         const allowedIds = filteredChannels.map(ch => ch.$.id);
 
