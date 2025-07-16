@@ -53,9 +53,15 @@ const httpsAgent = new https.Agent({ rejectUnauthorized: false });
         const titleParts = $(item).find('.name span').map((_, el) => $(el).text().trim()).get();
         const title = titleParts.join(' - ').replace(/&/g, '&amp;');
         const start = baseMon.add(dayIndex, 'day').hour(h).minute(m);
-        const stop = i + 1 < items.length
-          ? baseMon.add(dayIndex, 'day').hour(...$(items[i + 1]).find('.time').text().trim().split(':').map(Number))
-          : start.add(1, 'hour');
+
+        let stop;
+        if (i + 1 < items.length) {
+          const nextTimeText = $(items[i + 1]).find('.time').text().trim();
+          const [nextH, nextM] = nextTimeText.split(':').map(Number);
+          stop = baseMon.add(dayIndex, 'day').hour(nextH).minute(nextM);
+        } else {
+          stop = start.add(1, 'hour'); // default duration
+        }
 
         const f = dt => dt.format('YYYYMMDDHHmmss ZZ');
 
