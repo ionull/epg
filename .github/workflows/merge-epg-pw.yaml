@@ -37,5 +37,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git pull
           git add parts/pw.xml.gz
-          git commit -m "Update merged EPG file"
+          git diff --cached --quiet || git commit -m "Update merged EPG file [auto]"
           git push
