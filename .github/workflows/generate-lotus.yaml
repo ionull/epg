@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18
 
       - name: Install dependencies
         working-directory: epg-generator-lotus
@@ -33,8 +33,8 @@ jobs:
 
       - name: Commit and push EPG XML
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git pull
           git add parts/macaulotus.xml
           git diff --cached --quiet || git commit -m "Update EPG XML [auto]"
