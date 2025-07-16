@@ -7,7 +7,7 @@ const timezone = require('dayjs/plugin/timezone');
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-const URL = 'https://macaulotustv.cc/en/programme';
+const URL = 'http://macaulotustv.cc/en/programme';
 const CHANNEL_ID = '莲花卫视';
 const TZ = 'Asia/Shanghai';
 const OUTPUT_FILE = process.env.OUTPUT || 'epg.xml';
