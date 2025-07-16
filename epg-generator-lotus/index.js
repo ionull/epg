@@ -54,13 +54,23 @@ const httpsAgent = new https.Agent({ rejectUnauthorized: false });
         const title = titleParts.join(' - ').replace(/&/g, '&amp;');
         const start = baseMon.add(dayIndex, 'day').hour(h).minute(m);
 
-        let stop;
         if (i + 1 < items.length) {
+          // Use next time in same day
           const nextTimeText = $(items[i + 1]).find('.time').text().trim();
           const [nextH, nextM] = nextTimeText.split(':').map(Number);
           stop = baseMon.add(dayIndex, 'day').hour(nextH).minute(nextM);
         } else {
-          stop = start.add(1, 'hour'); // default duration
+          // Try first item from next day
+          const nextDay = $(days[dayIndex + 1]);
+          const nextItems = nextDay.find('.item');
+          if (nextItems.length > 0) {
+            const nextTimeText = nextItems.first().find('.time').text().trim();
+            const [nextH, nextM] = nextTimeText.split(':').map(Number);
+            stop = baseMon.add(dayIndex + 1, 'day').hour(nextH).minute(nextM);
+          } else {
+            // Fallback
+            stop = start.add(1, 'hour');
+          }
         }
 
         const f = dt => dt.format('YYYYMMDDHHmmss ZZ');
