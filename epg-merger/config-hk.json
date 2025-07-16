@@ -1,3 +1,4 @@
 [
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/macaulotus.xml.gz", "hint": "macau" },
   { "url": "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/epgziyong.xml", "hint": "hk", "filter_names": ["TVB功夫台"] }
 ]

@@ -29,13 +29,13 @@ jobs:
         working-directory: epg-generator-lotus
         run: node index.js
         env:
-          OUTPUT: ../parts/macaulotus.xml
+          OUTPUT: ../parts/macaulotus.xml.gz
 
       - name: Commit and push EPG XML
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git pull
-          git add parts/macaulotus.xml
+          git add parts/macaulotus.xml.gz
           git diff --cached --quiet || git commit -m "Update EPG XML [auto]"
           git push
