@@ -34,7 +34,12 @@ const httpsAgent = new https.Agent({ rejectUnauthorized: false });
     const $ = cheerio.load(res.data);
 
     const days = $('#programmeContent .programme-content');
-    const baseMon = dayjs().tz(TZ).startOf('week').add(1, 'day');
+    
+    const now = dayjs().tz(TZ);
+    // Get this week's Monday (even if today is Sunday)
+    const baseMon = now.day() === 0
+      ? now.subtract(6, 'day').startOf('day') // if today is Sunday, subtract 6 to get Monday
+      : now.startOf('week').add(1, 'day');    // else use normal Monday
 
     const xml = [
       '<?xml version="1.0" encoding="utf-8"?>',
