@@ -35,6 +35,7 @@ const displayNameRenames = {
   'TVBS新聞': 'TVBS新聞台',
   '靖天映畫': '靖天映畫台',
   '黃金翡翠台 (免費)': '黃金翡翠台',
+  'SUPER FREE (免費)': 'myTV SUPER FREE',
 };
 
 async function fetchAndParse(url) {
