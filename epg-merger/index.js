@@ -34,6 +34,7 @@ const displayNameRenames = {
   'FRANCE24 英文台': 'France 24 English',
   'TVBS新聞': 'TVBS新聞台',
   '靖天映畫': '靖天映畫台',
+  '黃金翡翠台 (免費)': '黃金翡翠台',
 };
 
 async function fetchAndParse(url) {
