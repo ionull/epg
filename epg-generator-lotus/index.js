@@ -11,7 +11,7 @@ const zlib = require('zlib');
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-const URL = 'https://macaulotustv.cc/en/programme';
+const URL = 'https://lotustv.mo/en/programme';
 const CHANNEL_ID = '莲花卫视';
 const DISPLAY_NAME = '澳门莲花';
 const TZ = 'Asia/Shanghai';
@@ -25,8 +25,8 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
-// HTTPS agent ignoring SSL errors
-const httpsAgent = new https.Agent({ rejectUnauthorized: false });
+// HTTPS agent ignoring SSL errors if needed
+const httpsAgent = new https.Agent({ rejectUnauthorized: true });
 
 (async () => {
   try {
