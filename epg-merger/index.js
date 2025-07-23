@@ -36,6 +36,10 @@ const displayNameRenames = {
   '靖天映畫': '靖天映畫台',
   '黃金翡翠台 (免費)': '黃金翡翠台',
   'SUPER FREE (免費)': 'myTV SUPER FREE',
+  '無綫新聞台 (免費)': '無綫新聞台',
+  '28AI智慧賽馬 (免費)': '28 AI 智慧賽馬',
+  '娛樂新聞台 (免費)': '娛樂新聞台',
+  '創世電視 (免費)': '創世電視',
 };
 
 async function fetchAndParse(url) {
