@@ -41,7 +41,7 @@ const displayNameRenames = {
   '娛樂新聞台 (免費)': '娛樂新聞台',
   '創世電視 (免費)': '創世電視',
   "SUPER金曲 (免費)": "SUPER金曲",
-  "SUPER Music (免費)": "SUPER Music (免費)",
+  "SUPER Music (免費)": "SUPER Music",
   "SUPER獎門人 (免費)": "SUPER獎門人",
   "SUPER EYT (免費)": "SUPER EYT",
   "SUPER識食 (免費)": "SUPER識食",
