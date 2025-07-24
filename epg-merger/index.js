@@ -40,6 +40,16 @@ const displayNameRenames = {
   '28AI智慧賽馬 (免費)': '28 AI 智慧賽馬',
   '娛樂新聞台 (免費)': '娛樂新聞台',
   '創世電視 (免費)': '創世電視',
+  "SUPER金曲 (免費)": "SUPER金曲",
+  "SUPER Music (免費)": "SUPER Music (免費)",
+  "SUPER獎門人 (免費)": "SUPER獎門人",
+  "SUPER EYT (免費)": "SUPER EYT",
+  "SUPER識食 (免費)": "SUPER識食",
+  "SUPER識嘆 (免費)": "SUPER識嘆", 
+  "SUPER煲劇 (免費)": "SUPER煲劇",
+  "SUPER劇場 (免費)": "SUPER劇場",
+  "SUPER話當年 (免費)": "SUPER話當年",
+  "SUPER Sports (免費)": "SUPER Sports",
 };
 
 async function fetchAndParse(url) {
