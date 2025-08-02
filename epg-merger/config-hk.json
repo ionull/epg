@@ -1,0 +1,10 @@
+[
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/macaulotus.xml.gz", "hint": "macau" },
+  { 
+    "url": "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/epgziyong.xml", 
+    "hint": "hk", 
+    "filter_names": ["TVB功夫台", "黃金翡翠台 (免費)", "SUPER FREE (免費)", "無綫新聞台 (免費)", "28AI智慧賽馬 (免費)", "娛樂新聞台 (免費)", "創世電視 (免費)", 
+      "now新聞", "now財經", "SUPER金曲 (免費)", "SUPER Music (免費)", "SUPER獎門人 (免費)", "SUPER EYT (免費)", "SUPER識食 (免費)", "SUPER識嘆 (免費)", 
+      "SUPER煲劇 (免費)", "SUPER劇場 (免費)", "SUPER話當年 (免費)", "SUPER Sports (免費)"]
+  }
+]

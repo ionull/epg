@@ -1,0 +1,20 @@
+name: "Generate QZTV EPG"
+description: "Fetch and generate XMLTV EPG for QZTV channel"
+
+inputs:
+  channel_group:
+    description: "TVMao Channel Group (e.g., QZTV)"
+    required: true
+  channel_id:
+    description: "TVMao Channel ID (e.g., QZTV1)"
+    required: true
+  display_name:
+    description: "Channel display name"
+    required: true
+  output_path:
+    description: "Where to save the compressed XML output"
+    required: true
+
+runs:
+  using: "node20"
+  main: "index.js"

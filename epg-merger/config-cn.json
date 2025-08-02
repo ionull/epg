@@ -1,0 +1,7 @@
+[
+  { "url": "https://epg.112114.xyz/pp.xml.gz", "hint": "cn" },
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv1.xml.gz", "hint": "qztv" },
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv3.xml.gz", "hint": "qztv" },
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv4.xml.gz", "hint": "qztv" },
+  { "url": "http://e.erw.cc/e.xml.gz", "hint": "cn local" }
+]

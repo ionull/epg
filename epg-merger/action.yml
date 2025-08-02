@@ -1,0 +1,14 @@
+name: "EPG Merger"
+description: "Merge multiple EPG XML files"
+inputs:
+  output:
+    description: "Output file name"
+    required: true
+    default: "merged.xml"
+  config:
+    description: "Path to config JSON file with URLs and optional filters"
+    required: true
+    default: "epg-config.json"
+runs:
+  using: "node16"
+  main: "index.js"
