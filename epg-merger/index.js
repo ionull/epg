@@ -50,6 +50,8 @@ const displayNameRenames = {
   "SUPER劇場 (免費)": "SUPER劇場",
   "SUPER話當年 (免費)": "SUPER話當年",
   "SUPER Sports (免費)": "SUPER Sports",
+  "深圳移动": "深圳移动电视",
+  "东莞新闻": "东莞新闻综合",
 };
 
 async function fetchAndParse(url) {
