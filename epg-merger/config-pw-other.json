@@ -56,6 +56,6 @@
   { "url": "https://epg.pw/api/epg.xml?channel_id=7673", "hint": "sky sports main event" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=6958", "hint": "sky sports premier league" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=408613", "hint": "premier sports 1" },
-  { "url": "https://epg.pw/api/epg.xml?channel_id=6958", "hint": "premier sports 2" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=408658", "hint": "premier sports 2" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=403854", "hint": "cinemax eastern feed" }
 ]
