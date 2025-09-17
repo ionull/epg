@@ -53,6 +53,7 @@ const displayNameRenames = {
   "深圳移动": "深圳移动电视",
   "东莞新闻": "东莞新闻综合",
   "SS La Liga": "SuperSport LaLiga",
+  "Willow Cricket HDTV (WILLOWHD)", "Willow Cricket",
 };
 
 async function fetchAndParse(url) {
