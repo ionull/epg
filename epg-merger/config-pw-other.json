@@ -58,8 +58,8 @@
   { "url": "https://epg.pw/api/epg.xml?channel_id=408613", "hint": "premier sports 1" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=408658", "hint": "premier sports 2" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=403854", "hint": "cinemax eastern feed" },
-  { "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz", "hint": "us1", "filter_names": ["Cinemax - Eastern Feed", "Cinemax - Pacific Feed", "FOX Soccer Plus HD", "Fox Deportes", "ACC Network", "Fox Sports 1", "Fox Sports 2", "CNBC USA", "ESPN Deportes", "ESPN U", "ESPN News", "ESPN", "Willow Xtra", "Willow Cricket HDTV (WILLOWHD)", "NHL Network USA", "NFL RedZone", "The NFL Network", "NBA TV USA", "MLB Network"] },
-  { "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz", "hint": "us2", "filter_names": ["beIN Sports USA HD"] },
-  { "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz", "hint": "uk1", "filter_names": ["ITV1 HD", "ITV2 HD", "ITV3 HD", "ITV4 HD", "BBC NEWS HD", "MUTV HD", "LFCTV HD"] },
+  { "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz", "hint": "us1", "filter_names": ["Cinemax - Eastern Feed", "Cinemax - Pacific Feed", "FOX Soccer Plus HD", "Fox Deportes", "ACC Network", "Fox Sports 1", "Fox Sports 2", "CNBC USA", "ESPN Deportes", "ESPN U", "ESPN News", "ESPN", "Willow Xtra", "Willow Cricket HDTV (WILLOWHD)", "NHL Network USA", "NFL RedZone", "The NFL Network", "NBA TV USA", "MLB Network", "Golf Channel USA"] },
+  { "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz", "hint": "us2", "filter_names": ["beIN Sports USA HD", "ESPN2 HD"] },
+  { "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz", "hint": "uk1", "filter_names": ["ITV1 HD", "ITV2 HD", "ITV3 HD", "ITV4 HD", "BBC NEWS HD", "MUTV HD", "LFCTV HD", "Racing TV"] },
   { "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz", "hint": "za1", "filter_names": ["SS La Liga", "SS Premier League", "Cartoon Network HD"] }
 ]
