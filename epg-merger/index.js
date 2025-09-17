@@ -52,6 +52,7 @@ const displayNameRenames = {
   "SUPER Sports (免費)": "SUPER Sports",
   "深圳移动": "深圳移动电视",
   "东莞新闻": "东莞新闻综合",
+  "SS La Liga": "SuperSport LaLiga",
 };
 
 async function fetchAndParse(url) {
