@@ -63,7 +63,7 @@
     "Fox Sports 2", "CNBC USA", "ESPN Deportes", "ESPN U", "ESPN News", "ESPN", "Willow Xtra", "Willow Cricket HDTV (WILLOWHD)", 
     "NHL Network USA", "NFL RedZone", "The NFL Network", "NBA TV USA", "MLB Network", "Golf Channel USA", "Fox News", 
     "NBC Universo - Eastern feed", "CBS Sports Network USA", "The Fight Network (United.States) (TFN)", "Discovery Life Channel", 
-    "Discovery Channel (US) - Eastern Feed", "Discovery Channel (US) on demand", "HBO 2 - Pacific Feed"
+    "Discovery Channel (US) - Eastern Feed", "Discovery Channel (US) on demand", "HBO 2 - Pacific Feed", "HBO - Pacific Feed"
   ] },
   { "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz", "hint": "us2", "filter_names": ["beIN Sports USA HD", "ESPN2 HD"] },
   { "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz", "hint": "uk1", "filter_names": ["ITV1 HD", "ITV2 HD", "ITV3 HD", "ITV4 HD", "BBC NEWS HD", "MUTV HD", "LFCTV HD", "Racing TV", "BBC Two HD", "BBC Three HD", "BBC Four HD", "BBC One Lon HD"] },
