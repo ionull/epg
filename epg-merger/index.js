@@ -54,6 +54,9 @@ const displayNameRenames = {
   "东莞新闻": "东莞新闻综合",
   "SS La Liga": "SuperSport LaLiga",
   "Willow Cricket HDTV (WILLOWHD)": "Willow Cricket",
+  "鳳凰衛視資訊台": "凤凰资讯",
+  "鳳凰衛視香港台": "凤凰香港",
+  "鳳凰衛視中文台": "凤凰中文"
 };
 
 async function fetchAndParse(url) {
