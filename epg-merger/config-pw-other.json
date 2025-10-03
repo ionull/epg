@@ -70,7 +70,8 @@
       "beIN Sports USA HD", "ESPN2 HD", "HBO (Pacific)", "HBO2 (Pacific)", "Cinemax (Pacific)", "Cinemax HD", "Fox News Channel HD", "ACC Network", 
       "FS1 Fox Sports 1 HD", "FS2 Fox Sports 2 HD", "The Discovery Channel HD (Pacific)", "Discovery Channel HD", "Discovery Life Channel", "UNIVERSO HD",
       "CNBC HD", "Fight Network", "Tennis Channel HD", "ESPN Deportes HD", "ESPNEWS HD", "ESPN HD", "ESPNU HD", "CBS Sports Network HD", "Fox Soccer Plus HD",
-      "Fox Deportes HD", "NHL Network HD", "NFL Network HD", "NFL RedZone HD", "NBA TV HD", "MLB Network HD", "Golf Channel HD"
+      "Fox Deportes HD", "NHL Network HD", "NFL Network HD", "NFL RedZone HD", "NBA TV HD", "MLB Network HD", "Golf Channel HD", 
+      "WWE Network", "Willow Xtra", "Willow Cricket HD", "World Fishing Network HD (US)"
     ] },
   { "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz", "hint": "uk1", 
     "filter_names": [
