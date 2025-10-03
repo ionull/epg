@@ -65,7 +65,11 @@
     "NBC Universo - Eastern feed", "CBS Sports Network USA", "The Fight Network (United.States) (TFN)", "Discovery Life Channel", 
     "Discovery Channel (US) - Eastern Feed", "Discovery Channel (US) on demand", "HBO 2 - Pacific Feed", "HBO - Pacific Feed"
   ] },
-  { "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz", "hint": "us2", "filter_names": ["beIN Sports USA HD", "ESPN2 HD", "HBO (Pacific)", "HBO2 (Pacific)", "Cinemax (Pacific)", "Cinemax HD", "Fox News Channel HD"] },
+  { "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz", "hint": "us2", 
+    "filter_names": [
+      "beIN Sports USA HD", "ESPN2 HD", "HBO (Pacific)", "HBO2 (Pacific)", "Cinemax (Pacific)", "Cinemax HD", "Fox News Channel HD", "ACC Network", 
+      "FS1 Fox Sports 1 HD", "FS2 Fox Sports 2 HD"
+    ] },
   { "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz", "hint": "uk1", "filter_names": ["ITV1 HD", "ITV2 HD", "ITV3 HD", "ITV4 HD", "BBC NEWS HD", "MUTV HD", "LFCTV HD", "Racing TV", "BBC Two HD", "BBC Three HD", "BBC Four HD", "BBC One Lon HD", "Sky Comedy HD", "Sky Family HD", "Sky Action HD", "SkyAnimationHD"] },
   { "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz", "hint": "za1", "filter_names": ["SS La Liga", "SS Premier League", "Cartoon Network HD"] },
   { "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml", "hint": "uk", "filter_names": ["Virgin Media One", "Virgin Media Two", "Virgin Media Three", "Virgin Media Four"] }
