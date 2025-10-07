@@ -76,7 +76,8 @@
   { "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz", "hint": "uk1", 
     "filter_names": [
       "ITV1 HD", "ITV2 HD", "ITV3 HD", "ITV4 HD", "BBC NEWS HD", "MUTV HD", "LFCTV HD", "Racing TV", 
-      "BBC Two HD", "BBC Three HD", "BBC Four HD", "BBC One Lon HD", "Sky Comedy HD", "Sky Family HD", "Sky Action HD", "SkyAnimationHD"
+      "BBC Two HD", "BBC Three HD", "BBC Four HD", "BBC One Lon HD", "Sky Comedy HD", "Sky Family HD", "Sky Action HD", "SkyAnimationHD",
+      "SkySp ActionHD", "SkySp Mix HD", "SkySp News HD", "SkySp Cricket", "SkySp Tennis HD", "SkySp F1 HD", "SkySp Golf", "SkySp Racing", "SkySp+"
     ] },
   { "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz", "hint": "za1", 
     "filter_names": [
