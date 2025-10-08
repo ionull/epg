@@ -3,5 +3,6 @@
   { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv1.xml.gz", "hint": "qztv" },
   { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv3.xml.gz", "hint": "qztv" },
   { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv4.xml.gz", "hint": "qztv" },
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/fivestar.xml.gz", "hint": "fivestar" },
   { "url": "http://e.erw.cc/e.xml.gz", "hint": "cn local" }
 ]
