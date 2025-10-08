@@ -58,6 +58,7 @@
   { "url": "https://epg.pw/api/epg.xml?channel_id=408613", "hint": "premier sports 1" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=408658", "hint": "premier sports 2" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=403854", "hint": "cinemax eastern feed" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=9419", "hint": "great movies" }
   { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=76619", "hint": "eurosport1"},
   { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=76744", "hint": "eurosport2"},
   { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=418524", "hint": "bein1"},
