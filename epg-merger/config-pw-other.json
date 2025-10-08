@@ -63,7 +63,8 @@
   { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=418524", "hint": "bein1"},
   { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=412129", "hint": "bein2"},
   { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=412175", "hint": "bein3"},
-  { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=6681", "hint": "skysp racing" },
+  { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=6681", "hint": "skysp racing"},
+  { "url": "https://epg.pw/api/epg.xml?channel_id=410397", "hint": "now sports 2"},
   { "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz", "hint": "us1", "filter_names": [
     "Cinemax - Eastern Feed", "Cinemax - Pacific Feed", "FOX Soccer Plus HD", "Fox Deportes", "ACC Network", "Fox Sports 1", 
     "Fox Sports 2", "CNBC USA", "ESPN Deportes", "ESPN U", "ESPN News", "ESPN", "Willow Xtra", "Willow Cricket HDTV (WILLOWHD)", 
