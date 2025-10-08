@@ -55,6 +55,5 @@
   { "url": "https://epg.pw/api/epg.xml?channel_id=370139", "hint": "民视" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370141", "hint": "中视" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370142", "hint": "中视经典" },
-  { "url": "https://epg.pw/api/epg.xml?channel_id=370147", "hint": "中视菁采" },
-  { "url": "https://epg.pw/api/epg.xml?channel_id=9419", "hint": "great movies" }
+  { "url": "https://epg.pw/api/epg.xml?channel_id=370147", "hint": "中视菁采" }
 ]
