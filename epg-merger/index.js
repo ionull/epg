@@ -58,7 +58,7 @@ const displayNameRenames = {
   "鳳凰衛視資訊台": "凤凰资讯",
   "鳳凰衛視香港台": "凤凰香港",
   "鳳凰衛視中文台": "凤凰中文",
-  "GREAT! movies": "Great Movies",
+  //"GREAT! movies": "Great Movies",
 };
 
 async function fetchAndParse(url) {
