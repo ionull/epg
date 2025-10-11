@@ -91,5 +91,8 @@
     "filter_names": [
       "SS La Liga", "SS Premier League", "Cartoon Network HD", "SS Football", "CRICKET", "RUGBY", "TENNIS"
     ] },
-  { "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml", "hint": "uk", "filter_names": ["Virgin Media One", "Virgin Media Two", "Virgin Media Three", "Virgin Media Four"] }
+  { "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml", "hint": "uk", 
+    "filter_names": [
+      "Virgin Media One", "Virgin Media Two", "Virgin Media Three", "Virgin Media Four", "GREAT! movies"
+    ] }
 ]
