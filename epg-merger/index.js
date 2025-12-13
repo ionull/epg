@@ -21,6 +21,7 @@ const displayNameRenames = {
   //'HITS頻道': 'HITS-頻道',
   '台灣戲劇HD': '台灣戲劇台',
   '公視戲劇': '公視戲劇台',
+  'Nice TV 靖天歡樂台': '靖天歡樂台',
   //'ViuTVsix': 'ViuTV-Six',
   '港台电视31': '港台電視31',
   '港台电视32': '港台電視32',
@@ -50,6 +51,16 @@ const displayNameRenames = {
   "SUPER劇場 (免費)": "SUPER劇場",
   "SUPER話當年 (免費)": "SUPER話當年",
   "SUPER Sports (免費)": "SUPER Sports",
+  "TVB Plus (免費)": "TVB Plus",
+  "深圳移动": "深圳移动电视",
+  "东莞新闻": "东莞新闻综合",
+  "SS La Liga": "SuperSport LaLiga",
+  "Willow Cricket HDTV (WILLOWHD)": "Willow Cricket",
+  "鳳凰衛視資訊台": "凤凰资讯",
+  "鳳凰衛視香港台": "凤凰香港",
+  "鳳凰衛視中文台": "凤凰中文",
+  //"GREAT! movies": "Great Movies",
+  "Hub Sports 1  HD": "Hub Sports 1 HD",
 };
 
 async function fetchAndParse(url) {
