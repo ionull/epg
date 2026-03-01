@@ -34,11 +34,11 @@
   { "url": "https://epg.pw/api/epg.xml?channel_id=370215", "hint": "rollor" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370177", "hint": "cti news" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=369324", "hint": "ctv news" },
-  { "url": "https://epg.pw/api/epg.xml?channel_id=370179" },
-  { "url": "https://epg.pw/api/epg.xml?channel_id=408104" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=370179", "hint": "寰宇新聞台" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=408104", "hint": "寰宇新聞台灣台" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370170", "hint": "ebc news" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370174", "hint": "tvbs news" },
-  { "url": "https://epg.pw/api/epg.xml?channel_id=370172" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=370172", "hint": "民視新聞台" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370211", "hint": "ginx" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370152", "hint": "arirang" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370210", "hint": "bike" },
@@ -47,5 +47,53 @@
   { "url": "https://epg.pw/api/epg.xml?channel_id=370236", "hint": "cnex" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=370222", "hint": "elta travel" },
   { "url": "https://epg.pw/api/epg.xml?channel_id=408106", "hint": "asia travel" },
-  { "url": "https://epg.pw/api/epg.xml?channel_id=369184", "hint": "番薯" }
+  { "url": "https://epg.pw/api/epg.xml?channel_id=369184", "hint": "番薯" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=400477", "hint": "TNT sports 1" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=400480", "hint": "TNT sports 2" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=400479", "hint": "TNT sports 3" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=400478", "hint": "TNT sports 4" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=400476", "hint": "TNT ultimate" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=5791", "hint": "sky sports football" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=7673", "hint": "sky sports main event" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=6958", "hint": "sky sports premier league" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=408613", "hint": "premier sports 1" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=408658", "hint": "premier sports 2" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=403854", "hint": "cinemax eastern feed" },
+  { "url": "https://epg.pw/api/epg.xml?channel_id=12143", "hint": "great movies" },
+  { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=76619", "hint": "eurosport1"},
+  { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=76744", "hint": "eurosport2"},
+  { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=418524", "hint": "bein1"},
+  { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=412129", "hint": "bein2"},
+  { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=412175", "hint": "bein3"},
+  { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=6681", "hint": "skysp racing"},
+  { "url": "https://epg.pw/api/epg.xml?lang=zh-hant&timezone=QXNpYS9NYWNhdQ%3D%3D&channel_id=12534", "hint": "racing"},
+  { "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz", "hint": "us1", "filter_names": [
+    "Cinemax - Eastern Feed", "Cinemax - Pacific Feed", "FOX Soccer Plus HD", "Fox Deportes", "ACC Network", "Fox Sports 1", 
+    "Fox Sports 2", "CNBC USA", "ESPN Deportes", "ESPN U", "ESPN News", "ESPN", "Willow Xtra", "Willow Cricket HDTV (WILLOWHD)", 
+    "NHL Network USA", "NFL RedZone", "The NFL Network", "NBA TV USA", "MLB Network", "Golf Channel USA", "Fox News", 
+    "NBC Universo - Eastern feed", "CBS Sports Network USA", "The Fight Network (United.States) (TFN)", "Discovery Life Channel", 
+    "Discovery Channel (US) - Eastern Feed", "Discovery Channel (US) on demand", "HBO 2 - Pacific Feed", "HBO - Pacific Feed"
+  ] },
+  { "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz", "hint": "us2", 
+    "filter_names": [
+      "beIN Sports USA HD", "ESPN2 HD", "HBO (Pacific)", "HBO2 (Pacific)", "Cinemax (Pacific)", "Cinemax HD", "Fox News Channel HD", "ACC Network", 
+      "FS1 Fox Sports 1 HD", "FS2 Fox Sports 2 HD", "The Discovery Channel HD (Pacific)", "Discovery Channel HD", "Discovery Life Channel", "UNIVERSO HD",
+      "CNBC HD", "Fight Network", "Tennis Channel HD", "ESPN Deportes HD", "ESPNEWS HD", "ESPN HD", "ESPNU HD", "CBS Sports Network HD", "Fox Soccer Plus HD",
+      "Fox Deportes HD", "NHL Network HD", "NFL Network HD", "NFL RedZone HD", "NBA TV HD", "MLB Network HD", "Golf Channel HD", 
+      "WWE Network", "Willow Xtra", "Willow Cricket HD", "World Fishing Network HD (US)", "CNN International"
+    ] },
+  { "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz", "hint": "uk1", 
+    "filter_names": [
+      "ITV1 HD", "ITV2 HD", "ITV3 HD", "ITV4 HD", "BBC NEWS HD", "MUTV HD", "LFCTV HD", "Racing TV", 
+      "BBC Two HD", "BBC Three HD", "BBC Four HD", "BBC One Lon HD", "Sky Comedy HD", "Sky Family HD", "Sky Action HD", "SkyAnimationHD",
+      "SkySp ActionHD", "SkySp Mix HD", "SkySp News HD", "SkySp Cricket", "SkySp Tennis HD", "SkySp F1 HD", "SkySp Golf", "SkySp Racing", "SkySp+"
+    ] },
+  { "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz", "hint": "za1", 
+    "filter_names": [
+      "SS La Liga", "SS Premier League", "Cartoon Network HD", "SS Football", "CRICKET", "RUGBY", "TENNIS"
+    ] },
+  { "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml", "hint": "uk", 
+    "filter_names": [
+      "Virgin Media One", "Virgin Media Two", "Virgin Media Three", "Virgin Media Four", "GREAT! movies"
+    ] }
 ]

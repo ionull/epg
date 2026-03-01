@@ -79,7 +79,7 @@ function extractTime(item, $) {
 
 function parsePrograms($, dayIndex, query) {
   const programs = [];
-  const items = $(query).toArray();
+  const items = $(query).toArray().filter(item => item.children[1]);
   const baseMon = getBaseMonday();
 
   for (let i = 0; i < items.length; i++) {
@@ -128,14 +128,14 @@ function fixCrossWeekStopTimes(programsPerWeek) {
 }
 
 const buildXml = (programs) => {
-  const channelXml = `<channel id="${CHANNEL_ID}">
+  const channelXml = `<channel id="${DISPLAY_NAME}">
   <display-name>${DISPLAY_NAME}</display-name>
 </channel>\n`;
 
   const programXml = programs
     .sort((a, b) => a.start - b.start)
     .map(
-      (p) => `<programme start="${p.start.format("YYYYMMDDHHmmss")} +0800" stop="${p.stop.format("YYYYMMDDHHmmss")} +0800" channel="${CHANNEL_ID}">
+      (p) => `<programme start="${p.start.format("YYYYMMDDHHmmss")} +0800" stop="${p.stop.format("YYYYMMDDHHmmss")} +0800" channel="${DISPLAY_NAME}">
   <title>${p.title}</title>
 </programme>`
     )

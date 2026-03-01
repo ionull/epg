@@ -1,0 +1,101 @@
+name: Generate CCTV EPGs
+
+permissions:
+  contents: write   # <-- grant write permission for repo contents
+
+on:
+  schedule:
+    - cron: '3 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1 # Run one by one to avoid Git push conflicts
+      matrix:
+        channel:
+          - id: CCTV1
+            name: CCTV1
+            group: CCTV
+          - id: CCTV2
+            name: CCTV2
+            group: CCTV
+          - id: CCTV3
+            name: CCTV3
+            group: CCTV
+          - id: CCTV4
+            name: CCTV4
+            group: CCTV
+          - id: CCTV5
+            name: CCTV5
+            group: CCTV
+          - id: CCTV5-PLUS
+            name: CCTV5+
+            group: CCTV
+          - id: CCTV6
+            name: CCTV6
+            group: CCTV
+          - id: CCTV7
+            name: CCTV7
+            group: CCTV
+          - id: CCTV8
+            name: CCTV8
+            group: CCTV
+          - id: CCTV9
+            name: CCTV9
+            group: CCTV
+          - id: CCTV10
+            name: CCTV10
+            group: CCTV
+          - id: CCTV11
+            name: CCTV11
+            group: CCTV
+          - id: CCTV12
+            name: CCTV12
+            group: CCTV
+          - id: CCTV13
+            name: CCTV13
+            group: CCTV
+          - id: CCTV15
+            name: CCTV14
+            group: CCTV
+          - id: CCTV16
+            name: CCTV15
+            group: CCTV
+          - id: CCTVOLY
+            name: CCTV16
+            group: CCTV
+          - id: CCTV17NY
+            name: CCTV17
+            group: CCTV
+          
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        working-directory: generator/qztv
+        run: npm install
+
+      - name: Generate EPG
+        uses: ./generator/qztv
+        with:
+          channel_group: ${{ matrix.channel.group }}
+          channel_id: ${{ matrix.channel.id }}
+          display_name: ${{ matrix.channel.name }}
+          output_path: parts/${{ matrix.channel.id }}.xml.gz
+
+      - name: Commit output to repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git pull
+          git add parts/${{ matrix.channel.id }}.xml.gz
+          git diff --cached --quiet || git commit -m "Update ${{ matrix.channel.id }} EPG [auto]"
+          git push

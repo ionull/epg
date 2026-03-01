@@ -1,11 +1,11 @@
-name: Generate QZTV-4 EPG
+name: Generate FiveStar EPG
 
 permissions:
   contents: write   # <-- grant write permission for repo contents
 
 on:
   schedule:
-    - cron: '9 */6 * * *'
+    - cron: '10 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,16 +26,16 @@ jobs:
       - name: Generate EPG
         uses: ./generator/qztv
         with:
-          channel_group: QZTV
-          channel_id: QZTV4
-          display_name: QZTV-4
-          output_path: parts/qztv4.xml.gz
+          channel_group: SHHAI
+          channel_id: SHHAI5
+          display_name: 五星体育
+          output_path: parts/fivestar.xml.gz
 
       - name: Commit output to repo
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git pull
-          git add parts/qztv4.xml.gz
-          git diff --cached --quiet || git commit -m "Update QZTV EPG [auto]"
+          git add parts/fivestar.xml.gz
+          git diff --cached --quiet || git commit -m "Update FiveStar EPG [auto]"
           git push

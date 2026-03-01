@@ -1,0 +1,56 @@
+name: Generate CHC EPGs
+
+permissions:
+  contents: write   # <-- grant write permission for repo contents
+
+on:
+  schedule:
+    - cron: '3 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1 # Run one by one to avoid Git push conflicts
+      matrix:
+        channel:
+          - id: CHC1
+            name: CHC动作电影
+            group: CHC
+          - id: CHC2
+            name: CHC家庭影院
+            group: CHC
+          - id: CHC3
+            name: CHC影迷电影
+            group: CHC
+          
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        working-directory: generator/qztv
+        run: npm install
+
+      - name: Generate EPG
+        uses: ./generator/qztv
+        with:
+          channel_group: ${{ matrix.channel.group }}
+          channel_id: ${{ matrix.channel.id }}
+          display_name: ${{ matrix.channel.name }}
+          output_path: parts/${{ matrix.channel.id }}.xml.gz
+
+      - name: Commit output to repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git pull
+          git add parts/${{ matrix.channel.id }}.xml.gz
+          git diff --cached --quiet || git commit -m "Update ${{ matrix.channel.id }} EPG [auto]"
+          git push
