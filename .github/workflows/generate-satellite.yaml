@@ -1,0 +1,134 @@
+name: Generate Satellite EPGs
+
+permissions:
+  contents: write   # <-- grant write permission for repo contents
+
+on:
+  #schedule:
+  #  - cron: '3 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1 # Run one by one to avoid Git push conflicts
+      matrix:
+        channel:
+          - id: BTV1
+            name: 北京卫视
+          - id: BTV10
+            name: 卡酷少儿
+          - id: CCQTV1
+            name: 重庆卫视
+          - id: AHTV1
+            name: 安徽卫视
+          - id: FJTV2
+            name: 东南卫视
+          - id: XMTV5
+            name: 厦门卫视
+          - id: GSTV1
+            name: 甘肃卫视
+          - id: GDTV1
+            name: 广东卫视
+          - id: SZTV1
+            name: 深圳卫视
+          - id: GUANXI1
+            name: 广西卫视
+          - id: GUIZOUTV1
+            name: 贵州卫视
+          - id: TCTC1
+            name: 海南卫视
+          - id: HEBEI1
+            name: 河北卫视
+          - id: HLJTV1
+            name: 黑龙江卫视
+          - id: HNTV1
+            name: 河南卫视
+          - id: HUBEI1
+            name: 湖北卫视
+          - id: HUNANTV1
+            name: 湖南卫视
+          - id: HUNANTV2
+            name: 金鹰卡通
+          - id: JSTV1
+            name: 江苏卫视
+          - id: JXTV1
+            name: 江西卫视
+          - id: JILIN1
+            name: 吉林卫视
+          - id: LNTV1
+            name: 辽宁卫视
+          - id: NMGTV1
+            name: 内蒙卫视
+          - id: NXTV2
+            name: 宁夏卫视
+          - id: SDTV1
+            name: 山东卫视
+          - id: SXTV1
+            name: 山西卫视
+          - id: DONGFANG1
+            name: 东方卫视
+          - id: TOONMAX1
+            name: 哈哈炫动
+          - id: SHXITV1
+            name: 陕西卫视
+          - id: SCTV1
+            name: 四川卫视
+          - id: TJTV1
+            name: 天津卫视
+          - id: XJTV1
+            name: 新疆卫视
+          - id: YNTV1
+            name: 云南卫视
+          - id: ZJTV1
+            name: 浙江卫视
+          - id: QHTV1
+            name: 青海卫视
+          - id: HXTV
+            name: 海峡卫视
+          - id: HHWS
+            name: 黄河卫视
+          - id: SANSHATV
+            name: 三沙卫视
+          - id: XIZANGTV1
+            name: 藏语卫视
+          - id: XIZANGTV2
+            name: 西藏卫视
+          - id: YANBIAN1
+            name: 延边卫视
+          - id: BINGTUAN
+            name: 兵团卫视
+          - id: KAMBA-TV
+            name: 康巴卫视
+          
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        working-directory: generator/qztv
+        run: npm install
+
+      - name: Generate EPG
+        uses: ./generator/qztv
+        with:
+          channel_group: ${{ matrix.channel.group }}
+          channel_id: ${{ matrix.channel.id }}
+          display_name: ${{ matrix.channel.name }}
+          output_path: parts/${{ matrix.channel.id }}.xml.gz
+          suffix_path: _satellite
+
+      - name: Commit output to repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git pull
+          git add parts/${{ matrix.channel.id }}.xml.gz
+          git diff --cached --quiet || git commit -m "Update ${{ matrix.channel.id }} EPG [auto]"
+          git push

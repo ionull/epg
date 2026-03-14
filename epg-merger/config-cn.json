@@ -1,7 +1,19 @@
 [
-  { "url": "https://epg.112114.xyz/pp.xml.gz", "hint": "cn" },
-  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv1.xml.gz", "hint": "qztv" },
-  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv3.xml.gz", "hint": "qztv" },
-  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv4.xml.gz", "hint": "qztv" },
-  { "url": "http://e.erw.cc/e.xml.gz", "hint": "cn local" }
+  {
+    "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/zsj.xml.gz",
+    "hint": "zsj"
+  },
+  {
+    "url": "https://epg.pw/api/epg.xml?channel_id=410373",
+    "hint": "深圳国际"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/mao.xml.gz",
+    "hint": "mao"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kuke31/xmlgz/main/all.xml.gz",
+    "hint": "cn",
+    "replace_id": true
+  }
 ]
