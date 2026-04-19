@@ -3,8 +3,6 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const xml2js = require('xml2js');
 const zlib = require('zlib');
-const { pipeline } = require('stream/promises');
-const { Readable } = require('stream');
 const path = require('path');
 
 const displayNameRenames = {
@@ -13,20 +11,16 @@ const displayNameRenames = {
   '龍華偶像HD': '龍華偶像台',
   '龍華戲劇HD': '龍華戲劇台',
   '龍華影劇HD': '龍華日韓台',
+  '龍華洋片HD': '龍華洋片台',
+  'Celestial Movies (HD)': '天映頻道',
   '韓國娛樂台 KMTV': '韓國娛樂台',
-  //'TVBS精采台': 'TVBS-精采台',
-  //'TVBS歡樂台': 'TVBS-歡樂台',
-  //'TVBS綜藝台': 'TVBS-綜藝台',
-  //'TVBS台劇台': 'TVBS-台劇台',
-  //'HITS頻道': 'HITS-頻道',
   '台灣戲劇HD': '台灣戲劇台',
   '公視戲劇': '公視戲劇台',
-  //'ViuTVsix': 'ViuTV-Six',
+  'Nice TV 靖天歡樂台': '靖天歡樂台',
   '港台电视31': '港台電視31',
   '港台电视32': '港台電視32',
   'CHC高清电影': 'CHC影迷电影',
   'KLT-靖天國際台': '靖天國際台',
-  //'fun探索娛樂台': 'Fun-探索娛樂台',
   'CNA': '亞洲新聞台',
   '南国都市4K': '南国都市',
   'MCE 我的歐洲電影台': 'My Cinema Europe HD 我的歐洲電影',
@@ -50,31 +44,34 @@ const displayNameRenames = {
   "SUPER劇場 (免費)": "SUPER劇場",
   "SUPER話當年 (免費)": "SUPER話當年",
   "SUPER Sports (免費)": "SUPER Sports",
+  "TVB Plus (免費)": "TVB Plus",
+  "深圳移动": "深圳移动电视",
+  "东莞新闻": "东莞新闻综合",
+  "SS La Liga": "SuperSport LaLiga",
+  "Willow Cricket HDTV (WILLOWHD)": "Willow Cricket",
+  "鳳凰衛視資訊台": "凤凰资讯",
+  "鳳凰衛視香港台": "凤凰香港",
+  "鳳凰衛視中文台": "凤凰中文",
+  "Hub Sports 1  HD": "Hub Sports 1 HD",
+  "Crime + Investigation HD": "Crime + Investigation",
+  "Lifetime HD": "Lifetime",
+  "Travelxp HD": "Travelxp",
+  "TVBS 歡樂台": "TVBS歡樂台",
+  "CHC家庭电影": "CHC家庭影院",
+  "Racing TV HD": "Racing TV",
+  "深圳衛視": "深圳国际",
+  "Zhejiang": "浙江国际",
+  "momo綜合台HD": "MOMOTV",
 };
 
 async function fetchAndParse(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Failed to fetch ${url}`);
-
   const isGz = url.endsWith('.gz');
-
   const buffer = await res.buffer();
-  const xml = isGz
-    ? await gunzipBuffer(buffer)
-    : buffer.toString('utf8');
-
+  const xml = isGz ? zlib.gunzipSync(buffer).toString('utf8') : buffer.toString('utf8');
   return xml2js.parseStringPromise(xml);
 }
-
-async function gunzipBuffer(buffer) {
-  return new Promise((resolve, reject) => {
-    zlib.gunzip(buffer, (err, output) => {
-      if (err) reject(err);
-      else resolve(output.toString('utf8'));
-    });
-  });
-}
-
 
 (async () => {
   try {
@@ -82,96 +79,99 @@ async function gunzipBuffer(buffer) {
     const configPath = core.getInput('config');
     const configEntries = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
 
-    const parsed = []
-
-    for (const entry of configEntries) {
-      const { url } = entry;
-      if (!url) continue;
-
-      try {
-        const data = await fetchAndParse(url);
-        parsed.push({ data, url, filterNames: entry.filter_names || [] });
-      } catch (err) {
-        console.warn(`⚠️ Failed to fetch/parse ${url}: ${err.message}`);
-      }
-    }
-
     const merged = {
       tv: {
-        $: parsed[0].data.tv.$,
+        $: { generator: 'Merged-EPG-Script' },
         channel: [],
         programme: []
       }
     };
 
-    for (const entry of parsed) {
-      const p = entry.data;
-      const url = entry.url;
-      const filterNames = entry.filterNames;
+    let isFirstFile = true;
 
-      const allChannels = p.tv.channel || [];
-      const allProgrammes = p.tv.programme || [];
+    for (const entry of configEntries) {
+      const { url, filter_names = [], replace_id = false } = entry;
+      if (!url) continue;
 
-      if (filterNames.length > 0) {
-        const filteredChannels = allChannels.filter(ch => {
+      try {
+        console.log(`Processing: ${url}`);
+        const data = await fetchAndParse(url);
+        
+        if (isFirstFile && data.tv && data.tv.$) {
+          merged.tv.$ = data.tv.$;
+          isFirstFile = false;
+        }
+
+        const sourceChannels = data.tv.channel || [];
+        const sourceProgrammes = data.tv.programme || [];
+        
+        // 1. Identify which channels to keep
+        let channelsToProcess = [];
+        if (filter_names.length > 0) {
+          channelsToProcess = sourceChannels.filter(ch => {
+            const name = ch['display-name']?.[0]?._?.trim();
+            return filter_names.includes(name);
+          });
+        } else {
+          channelsToProcess = sourceChannels;
+        }
+
+        const allowedSourceIds = new Set(channelsToProcess.map(ch => ch.$.id));
+        const idReplacementMap = new Map(); // Maps Old ID -> New ID (Display Name)
+
+        // 2. Process and Rename Channels
+        for (const ch of channelsToProcess) {
           const nameObj = ch['display-name']?.[0];
-          const name = nameObj?._?.trim();
-          return filterNames.includes(name);
-        });
-        // console.log('filteredChannels', filteredChannels);
+          let currentName = nameObj?._?.trim();
 
-        const allowedIds = filteredChannels.map(ch => ch.$.id);
-
-        const filteredProgrammes = allProgrammes.filter(prog =>
-          allowedIds.includes(prog.$.channel)
-        );
-
-        for (const ch of filteredChannels || []) {
-          const nameObj = ch['display-name']?.[0];
-          const name = nameObj?._?.trim();
-
-          if (name && displayNameRenames[name]) {
-            nameObj._ = displayNameRenames[name];
+          // Apply display name renames if configured
+          if (currentName && displayNameRenames[currentName]) {
+            currentName = displayNameRenames[currentName];
+            nameObj._ = currentName;
           }
+
+          // If replace_id is true, map the old ID to the (potentially renamed) display name
+          if (replace_id && currentName) {
+            const oldId = ch.$.id;
+            const newId = currentName;
+            idReplacementMap.set(oldId, newId);
+            ch.$.id = newId; // Update the channel object ID
+          }
+
           merged.tv.channel.push(ch);
         }
 
-        //merged.tv.channel.push(...filteredChannels);
-        merged.tv.programme.push(...filteredProgrammes);
-      } else {
-        for (const ch of p.tv.channel || []) {
-          const nameObj = ch['display-name']?.[0];
-          const name = nameObj?._?.trim();
+        // 3. Process Programmes
+        for (const prog of sourceProgrammes) {
+          const progChannelId = prog.$.channel;
 
-          if (name && displayNameRenames[name]) {
-            nameObj._ = displayNameRenames[name];
+          // Only include if the channel survived the filter
+          if (allowedSourceIds.has(progChannelId)) {
+            // If we are replacing IDs, update the programme's channel pointer
+            if (replace_id && idReplacementMap.has(progChannelId)) {
+              prog.$.channel = idReplacementMap.get(progChannelId);
+            }
+            merged.tv.programme.push(prog);
           }
-          merged.tv.channel.push(ch);
         }
-        merged.tv.programme.push(...(p.tv.programme || []));
+
+        data.tv = null; // Memory cleanup
+      } catch (err) {
+        console.warn(`⚠️ Skipping ${url} due to error: ${err.message}`);
       }
     }
 
+    console.log(`Final counts: ${merged.tv.channel.length} channels, ${merged.tv.programme.length} programmes.`);
+
     const builder = new xml2js.Builder();
-    const xml = builder.buildObject(merged);
-
+    const xmlString = builder.buildObject(merged);
+    const compressed = zlib.gzipSync(xmlString);
+    
     const baseOutput = output.endsWith('.gz') ? output.replace(/\.gz$/, '') : output;
-    const gzipOutput = `${baseOutput}.gz`;
+    fs.writeFileSync(`${baseOutput}.gz`, compressed);
+    console.log(`✅ Success! File saved to: ${baseOutput}.gz`);
 
-    // Save plain XML
-    // fs.writeFileSync(baseOutput, xml, 'utf8');
-    // console.log(`Saved plain XML file: ${baseOutput}`);
-
-    // Save .gz compressed version
-    zlib.gzip(xml, (err, buffer) => {
-      if (err) {
-        core.setFailed(`Gzip error: ${err.message}`);
-        return;
-      }
-      fs.writeFileSync(gzipOutput, buffer);
-      console.log(`Saved compressed file: ${gzipOutput}`);
-    });
   } catch (error) {
-    core.setFailed(error.message);
+    core.setFailed(`Script failed: ${error.message}`);
   }
 })();
