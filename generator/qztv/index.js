@@ -24,27 +24,48 @@ const CHANNEL_GROUP = core.getInput("channel_group");
 const CHANNEL_ID = core.getInput("channel_id");
 const DISPLAY_NAME = core.getInput("display_name");
 const OUTPUT_PATH = core.getInput("output_path");
+const SUFFIX_PATH = core.getInput("suffix_path");
 
-const USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0";
+const combinedChannelId = [CHANNEL_GROUP, CHANNEL_ID].filter(val => val != null && val.trim() !== "").join('-');
+
+const USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:148.0) Gecko/20100101 Firefox/148.0";
+const REFERER = "https://www.tvmao.com/"
+const COOKIE = 'ezux_lpl_777154=1779882938351|42476c8e-33f8-469e-a760-2c7be8df17a1|true; _ga=GA1.1.874070911.1771864102; xsuid=e7508145-b5a5-4b2a-a1e2-8092fd347670; xsuid_time=2026-2-24; tvm_channel_province=BTV@; say=ok; Hm_lvt_c0bdbfd2760344b657ca669278f8a772=1777783773; HMACCOUNT=5A40FE2B0C16E872; gppChoices=DBABRg~BFoAABA; _ga_53NZR5KP7Q=GS2.1.s1777783775$o35$g1$t1777783792$j43$l0$h0; _ga_BX824P6FEQ=GS2.1.s1777783775$o35$g1$t1777783792$j43$l0$h0; _ezli_enabled=true; ezds=ffid%3D1%2Cw%3D2560%2Ch%3D1440; ezux_ifep_777154=true; ezux_lpl_777154=1779057112021|e189cf86-03c4-4990-9634-1e76e2b92d04|true; ezfs_777154=923263113; ezoab_777154=mod1; ezovuuidtime_777154=1779882921; lp_777154=https://www.tvmao.com/program/BTV-BTV12-w1.html; ezovuuid_777154=0f930e67-5a99-4783-61a5-980c08fc6663; ezoref_777154=; ezohw=w%3D688%2Ch%3D1276; Hm_lpvt_c0bdbfd2760344b657ca669278f8a772=1779882935; active_template::777154=pub_site.1779882937; ezopvc_777154=2; ezux_et_777154=300; ezux_tos_777154=3589'
 
 const fetchHtml = async (w) => {
-  const url = `https://www.tvmao.com/program/${CHANNEL_GROUP}-${CHANNEL_ID}-w${w}.html`;
+  const url = `https://www.tvmao.com/program${SUFFIX_PATH}/${combinedChannelId}-w${w}.html`;
+  console.log('fetchHtml', url)
   const { data } = await axios.get(url, {
     headers: { 
-      Referer: url,
+      //'Referer': REFERER,
       "User-Agent": USER_AGENT,
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 
+      'Accept-Language': 'zh-CN,zh;q=0.9,zh-TW;q=0.8,zh-HK;q=0.7,en-US;q=0.6,en;q=0.5', 
+      'Accept-Encoding': 'gzip, deflate, br, zstd', 
+      'Connection': 'keep-alive', 
+      'Upgrade-Insecure-Requests': '1', 
+      'Sec-Fetch-Dest': 'document', 
+      'Sec-Fetch-Mode': 'navigate', 
+      'Sec-Fetch-Site': 'none', 
+      'Sec-Fetch-User': '?1', 
+      'Priority': 'u=0, i', 
+      'Pragma': 'no-cache', 
+      'Cache-Control': 'no-cache',
+      'Cookie': COOKIE
     },
+    decompress: true
   });
+  //console.log('fetchHtml', data)
   return cheerio.load(data);
 };
 
 const fetchChannelEpg = async (w) => {
-  const page_url = `https://www.tvmao.com/program/${CHANNEL_GROUP}-${CHANNEL_ID}-w${w}.html`;
+  const page_url = `https://www.tvmao.com/program${SUFFIX_PATH}/${combinedChannelId}-w${w}.html`;
   const urlToken = "https://www.tvmao.com/servlet/accessToken?p=channelEpg";
   const tokenData = await axios.get(urlToken, {
     headers: {
       "User-Agent": USER_AGENT,
-      Referer: page_url,
+      Referer: REFERER,
     },
   });
 
@@ -60,7 +81,7 @@ const fetchChannelEpg = async (w) => {
     {
       headers: {
         "User-Agent": USER_AGENT,
-        Referer: page_url,
+        Referer: REFERER,
         "Content-Type": "application/x-www-form-urlencoded",
       },
     }
@@ -79,7 +100,7 @@ function extractTime(item, $) {
 
 function parsePrograms($, dayIndex, query) {
   const programs = [];
-  const items = $(query).toArray();
+  const items = $(query).toArray().filter(item => item.children[1]);
   const baseMon = getBaseMonday();
 
   for (let i = 0; i < items.length; i++) {
@@ -128,14 +149,14 @@ function fixCrossWeekStopTimes(programsPerWeek) {
 }
 
 const buildXml = (programs) => {
-  const channelXml = `<channel id="${CHANNEL_ID}">
+  const channelXml = `<channel id="${DISPLAY_NAME}">
   <display-name>${DISPLAY_NAME}</display-name>
 </channel>\n`;
 
   const programXml = programs
     .sort((a, b) => a.start - b.start)
     .map(
-      (p) => `<programme start="${p.start.format("YYYYMMDDHHmmss")} +0800" stop="${p.stop.format("YYYYMMDDHHmmss")} +0800" channel="${CHANNEL_ID}">
+      (p) => `<programme start="${p.start.format("YYYYMMDDHHmmss")} +0800" stop="${p.stop.format("YYYYMMDDHHmmss")} +0800" channel="${DISPLAY_NAME}">
   <title>${p.title}</title>
 </programme>`
     )
@@ -151,7 +172,7 @@ const main = async () => {
     for (let w = 1; w <= 7; w++) {
       const $html = await fetchHtml(w);
 
-      const additionalHtml = await fetchChannelEpg(w);
+      const additionalHtml = "";//await fetchChannelEpg(w);
       if (additionalHtml.trim().startsWith("<li")) {
         $html("#pgrow").append(additionalHtml);
       }

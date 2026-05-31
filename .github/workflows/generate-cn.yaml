@@ -1,0 +1,292 @@
+name: Generate cn EPGs
+
+permissions:
+  contents: write   # <-- grant write permission for repo contents
+
+on:
+  schedule:
+    # 16:03 UTC is 00:03 UTC+8
+    - cron: '3 16 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 5 # Run one by one to avoid Git push conflicts
+      matrix:
+        channel:
+          - id: CHC1
+            name: CHC动作电影
+            group: CHC
+          - id: CHC2
+            name: CHC家庭影院
+            group: CHC
+          - id: CHC3
+            name: CHC影迷电影
+            group: CHC
+          - id: CCTV1
+            name: CCTV1
+            group: CCTV
+          - id: CCTV2
+            name: CCTV2
+            group: CCTV
+          - id: CCTV3
+            name: CCTV3
+            group: CCTV
+          - id: CCTV4
+            name: CCTV4
+            group: CCTV
+          - id: CCTV5
+            name: CCTV5
+            group: CCTV
+          - id: CCTV5-PLUS
+            name: CCTV5+
+            group: CCTV
+          - id: CCTV6
+            name: CCTV6
+            group: CCTV
+          - id: CCTV7
+            name: CCTV7
+            group: CCTV
+          - id: CCTV8
+            name: CCTV8
+            group: CCTV
+          - id: CCTV9
+            name: CCTV9
+            group: CCTV
+          - id: CCTV10
+            name: CCTV10
+            group: CCTV
+          - id: CCTV11
+            name: CCTV11
+            group: CCTV
+          - id: CCTV12
+            name: CCTV12
+            group: CCTV
+          - id: CCTV13
+            name: CCTV13
+            group: CCTV
+          - id: CCTV15
+            name: CCTV14
+            group: CCTV
+          - id: CCTV16
+            name: CCTV15
+            group: CCTV
+          - id: CCTVOLY
+            name: CCTV16
+            group: CCTV
+          - id: CCTV17NY
+            name: CCTV17
+            group: CCTV
+          #- id: FJTV1
+          #  name: 福建综合
+          #  group: FJTV
+          #- id: FJTV3
+          #  name: 福建公共
+          #  group: FJTV
+          #- id: FJTV4
+          #  name: 福建新闻
+          #  group: FJTV
+          #- id: FJTV5
+          #  name: 福建电视剧
+          #  group: FJTV
+          #- id: FJTV6
+          #  name: 福建旅游
+          #  group: FJTV
+          #- id: FJTV7
+          #  name: 福建经济
+          #  group: FJTV
+          #- id: FJTV8
+          #  name: 福建文体
+          #  group: FJTV
+          #- id: FJTV9
+          #  name: 福建少儿
+          #  group: FJTV
+          - id: QZTV1
+            name: QZTV1
+            group: QZTV
+          - id: QZTV3
+            name: QZTV3
+            group: QZTV
+          - id: QZTV4
+            name: QZTV4
+            group: QZTV
+          - id: XMTV1
+            name: 厦门一套
+            group: XMTV
+          - id: XMTV2
+            name: 厦门二套
+            group: XMTV
+          - id: XMTV3
+            name: 厦门三套
+            group: XMTV
+          - id: FZTV1
+            name: 福州新闻
+            group: FZTV
+          - id: FZTV2
+            name: 福州影视
+            group: FZTV
+          - id: FZTV3
+            name: 福州生活
+            group: FZTV
+          - id: FZTV-BABY
+            name: 福州少儿
+            group: FZTV
+          - id: ZZTV1
+            name: 漳州新闻
+            group: ZZTV
+          - id: ZZTV2
+            name: 漳州二套
+            group: ZZTV
+          - id: FJLY1
+            name: 龙岩综合
+            group: FJLY
+          - id: GZTV1
+            name: 广州综合
+            group: GZTV
+          - id: GZTV2
+            name: 广州新闻
+            group: GZTV
+          - id: GZTV4
+            name: 广州影视
+            group: GZTV
+          - id: GZTV6
+            name: 广州法治
+            group: GZTV
+          - id: GZDSTGGPD
+            name: 南国都市
+            group: GZTV
+          - id: SZTV2
+            name: 深圳都市
+            group: SZTV
+          - id: SZTV3
+            name: 深圳电视剧
+            group: SZTV
+          - id: SZTV7
+            name: 深圳少儿
+            group: SZTV
+          - id: SZTV9
+            name: 深圳移动电视
+            group: SZTV
+          - id: SHHAI1
+            name: 上海新闻综合
+            group: SHHAI
+          - id: SHHAI2
+            name: 上海第一财经
+            group: SHHAI
+          - id: SHHAI5
+            name: 五星体育
+            group: SHHAI
+          - id: SHHAI6
+            name: 上海纪实人文
+            group: SHHAI
+          - id: SHHAI7
+            name: 上海都市
+            group: SHHAI
+          - id: BTV2
+            name: 北京文艺
+            group: BTV
+          - id: BTV4
+            name: 北京影视
+            group: BTV
+          - id: BTV5
+            name: 北京财经
+            group: BTV
+          - id: BTV7
+            name: 北京生活
+            group: BTV
+          - id: BTV9
+            name: 北京新闻
+            group: BTV
+          - id: BTV12
+            name: 北京纪实科教
+            group: BTV
+          #- id: ZJTV2
+          #  name: 钱江都市
+          #  group: ZJTV
+          #- id: ZJTV3
+          #  name: 浙江经济生活
+          #  group: ZJTV
+          #- id: ZJTV4
+          #  name: 浙江教科影视
+          #  group: ZJTV
+          #- id: ZJTV6
+          #  name: 浙江民生休闲
+          #  group: ZJTV
+          #- id: ZJTV7
+          #  name: 浙江新闻
+          #  group: ZJTV
+          #- id: ZJTV8
+          #  name: 浙江少儿
+          #  group: ZJTV
+          - id: CHENGDU1
+            name: cdtv1
+            group: CHENGDU
+          - id: CHENGDU2
+            name: cdtv2
+            group: CHENGDU
+          - id: CHENGDU3
+            name: cdtv3
+            group: CHENGDU
+          - id: CHENGDU4
+            name: cdtv4
+            group: CHENGDU
+          - id: CHENGDU5
+            name: cdtv5
+            group: CHENGDU
+          - id: CDTV-6
+            name: cdtv6
+            group: CHENGDU
+          
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        working-directory: generator/qztv
+        run: npm install
+
+      - name: Generate EPG
+        uses: ./generator/qztv
+        with:
+          channel_group: ${{ matrix.channel.group }}
+          channel_id: ${{ matrix.channel.id }}
+          display_name: ${{ matrix.channel.name }}
+          output_path: parts/${{ matrix.channel.id }}.xml.gz
+
+      - name: Commit output to repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          
+          git add parts/${{ matrix.channel.id }}.xml.gz
+          
+          # Only commit if there are changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "Update ${{ matrix.channel.id }} EPG [auto]"
+
+          # Retry logic for parallel matrix pushes
+          n=0
+          max=10
+          until [ $n -ge $max ]
+          do
+            # 1. Pull latest changes from remote
+            # 2. Rebase our new commit on top of them
+            # 3. Push
+            git pull --rebase origin main && git push origin main && break
+            
+            n=$((n+1))
+            echo "Push failed. Retrying in $n seconds..."
+            sleep $((1 + $RANDOM % 5)) # Sleep 1-5 seconds to stagger retries
+          done
+

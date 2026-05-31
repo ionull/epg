@@ -1,6 +1,9 @@
 [
   { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/pw.xml.gz", "hint": "pw" },
   { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/pw-other.xml.gz", "hint": "pw-other" },
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/mytvsuper.xml.gz", "hint": "mytv" },
+  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/hoy.xml.gz", "hint": "hoy" },
   { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/hk.xml.gz", "hint": "hk" },
+  { "url": "https://raw.githubusercontent.com/dbghelp/StarHub-TV-EPG/refs/heads/main/starhub.xml", "hint": "singapore" },
   { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/cn.xml.gz", "hint": "cn" }
 ]
