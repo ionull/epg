@@ -1,0 +1,45 @@
+name: Generate MyTVSuper EPG
+
+on:
+  schedule:
+    # Run daily at 03:00 Asia/Shanghai
+    - cron: '0 19 * * *' # 19:00 UTC = 03:00 Asia/Shanghai
+  workflow_dispatch:
+
+permissions:
+  contents: write   # <-- grant write permission for repo contents
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout repository
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # 2️⃣ Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        working-directory: generator/mytvsuper
+        run: npm install
+
+      # 4️⃣ Run EPG generator
+      - name: Generate MyTVSuper EPG
+        run: node generator/mytvsuper/index.js
+
+      # 5️⃣ Commit and push result
+      - name: Commit & Push mytvsuper.xml.gz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@github.com"
+          git pull
+          git add parts/mytvsuper.xml.gz
+          # git commit -m "Update MyTVSuper EPG: $(date +'%Y-%m-%d')"
+          git diff --cached --quiet || git commit -m "Update EPG XML [auto]"
+          git push
