@@ -1,0 +1,15 @@
+{
+  "name": "epg-generator-hoy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HOY TV EPG generator for channels 76, 77, 78",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "fast-xml-parser": "^4.5.0",
+    "node-fetch": "^3.3.2"
+  }
+}
