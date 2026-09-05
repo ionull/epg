@@ -1,0 +1,41 @@
+name: Squash and Push Clean History
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'   # Every 12 hours
+  workflow_dispatch:    # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  squash-history:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # important! fetch all commits so we can squash them
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Squash entire history into one commit
+        run: |
+          # Find the very first commit in the repo
+          ROOT_COMMIT=$(git rev-list --max-parents=0 HEAD)
+
+          # Reset to the root commit (keep working tree as-is)
+          git reset "$ROOT_COMMIT"
+
+          # Stage everything in the current state
+          git add -A
+
+          # Create a single new commit
+          git commit -m "Squash all commits into one[auto]"
+
+          # Force push to overwrite history
+          git push -f origin main
