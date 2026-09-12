@@ -1,0 +1,43 @@
+name: Update TDM EPG
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # 每天澳门时间 02:00
+  workflow_dispatch:
+  push:
+    paths:
+      - 'generator/tdm/**'
+      - '.github/workflows/tdm.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  run-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Elixir
+        uses: erlef/setup-beam@v1
+        with:
+          elixir-version: '1.17'
+          otp-version: '27'
+
+      - name: Run EPG Script
+        run: elixir generator/tdm/main.exs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git pull
+          git add parts/tdm.xml.gz
+          if git diff --cached --quiet; then
+            echo "No changes in EPG data."
+          else
+            git commit -m "chore(epg): update TDM EPG [skip ci]"
+            git push
+          fi
