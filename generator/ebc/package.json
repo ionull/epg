@@ -1,0 +1,14 @@
+{
+  "name": "ebc-epg-generator",
+  "version": "1.0.0",
+  "description": "Generate GZipped EPG for EBC Asia",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dayjs": "^1.11.10"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

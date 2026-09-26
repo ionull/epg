@@ -1,0 +1,33 @@
+name: Generate Sing Tao EPG
+
+on:
+  #schedule:
+  #  - cron: '*/10 * * * *' # 每10分钟运行一次
+  workflow_dispatch:      # 允许手动点击运行
+
+jobs:
+  generate-epg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Generate EPG
+        run: node generator/tune/index.js
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git pull
+          git add parts/sing-tao-yue.xml.gz
+          git diff --cached --quiet || git commit -m "Update SingTao EPG [auto]"
+          git push
