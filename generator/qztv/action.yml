@@ -4,7 +4,7 @@ description: "Fetch and generate XMLTV EPG for QZTV channel"
 inputs:
   channel_group:
     description: "TVMao Channel Group (e.g., QZTV)"
-    required: true
+    required: false
   channel_id:
     description: "TVMao Channel ID (e.g., QZTV1)"
     required: true
@@ -14,6 +14,9 @@ inputs:
   output_path:
     description: "Where to save the compressed XML output"
     required: true
+  suffix_path:
+    description: "Suffix path of program"
+    required: false
 
 runs:
   using: "node20"
