@@ -1,7 +1,26 @@
 [
-  { "url": "https://epg.112114.xyz/pp.xml.gz", "hint": "cn" },
-  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv1.xml.gz", "hint": "qztv" },
-  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv3.xml.gz", "hint": "qztv" },
-  { "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/qztv4.xml.gz", "hint": "qztv" },
-  { "url": "http://e.erw.cc/e.xml.gz", "hint": "cn local" }
+  {
+    "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/zsj.xml.gz",
+    "hint": "zsj"
+  },
+  {
+    "url": "https://epg.pw/api/epg.xml?channel_id=410373",
+    "hint": "深圳国际"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/mao.xml.gz",
+    "hint": "mao"
+  },
+  {
+    "url": "https://epg.pw/api/epg.xml?channel_id=539709",
+    "hint": "北京体育休闲"
+  },
+  {
+    "url": "https://epg.pw/api/epg.xml?channel_id=539846",
+    "hint": "上海都市"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ionull/epg/refs/heads/main/parts/setv.xml.gz",
+    "hint": "setv"
+  }
 ]
