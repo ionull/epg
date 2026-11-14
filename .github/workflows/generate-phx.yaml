@@ -1,0 +1,32 @@
+name: Generate Phx EPG
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # 18:00 UTC = 02:00 Asia/Shanghai
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate EPG
+        run: node generator/phx/index.js
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git pull
+          git add parts/phx.xml.gz
+          git diff --cached --quiet || git commit -m "Update EPG XML [auto]"
+          git push
