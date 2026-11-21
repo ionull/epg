@@ -1,0 +1,33 @@
+name: Generate SETV EPG
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '1 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Generator
+        run: node generator/setv/index.js
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git pull
+          git add parts/setv.xml.gz
+          git diff --cached --quiet || git commit -m "Update SETV EPG: $(date) [auto]"
+          git push
